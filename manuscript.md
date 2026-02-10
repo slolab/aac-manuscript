@@ -1,14 +1,18 @@
 ---
-title: Manuscript Title
+title: 'The Agentic Automation Canvas: a structured framework for agentic AI project design'
 keywords:
-- markdown
-- publishing
-- manubot
+- agentic systems
+- generative AI
+- automation
+- RO-Crate
+- FAIR principles
+- research infrastructure
+- governance
+- data protection
 lang: en-US
-date-meta: '2026-02-09'
+date-meta: '2026-02-10'
 author-meta:
-- John Doe
-- Jane Roe
+- Sebastian Lobentanzer
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -16,38 +20,34 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2026-02-09" />
-  <meta name="citation_publication_date" content="2026-02-09" />
-  <meta property="article:published_time" content="2026-02-09" />
-  <meta name="dc.modified" content="2026-02-09T17:36:49+00:00" />
-  <meta property="article:modified_time" content="2026-02-09T17:36:49+00:00" />
+  <meta name="dc.title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
+  <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
+  <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
+  <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
+  <meta name="dc.date" content="2026-02-10" />
+  <meta name="citation_publication_date" content="2026-02-10" />
+  <meta property="article:published_time" content="2026-02-10" />
+  <meta name="dc.modified" content="2026-02-10T16:51:36+00:00" />
+  <meta property="article:modified_time" content="2026-02-10T16:51:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Sebastian Lobentanzer" />
+  <meta name="citation_author_institution" content="Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany" />
+  <meta name="citation_author_institution" content="German Center for Diabetes Research, Munich, Germany" />
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3399-6695" />
   <link rel="canonical" href="https://slolab.github.io/aac-manuscript/" />
   <meta property="og:url" content="https://slolab.github.io/aac-manuscript/" />
   <meta property="twitter:url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/))
+([permalink](https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/))
 was automatically generated
-from [slolab/aac-manuscript@f44f9bb](https://github.com/slolab/aac-manuscript/tree/f44f9bbe35441a8acd51a5898e6e739acaf54c1c)
-on February 9, 2026.
+from [slolab/aac-manuscript@de37b33](https://github.com/slolab/aac-manuscript/tree/de37b3380482984e3ba5a7891f3a55ed50646a80)
+on February 10, 2026.
 </em></small>
 
 
@@ -81,343 +81,161 @@ on February 9, 2026.
 
 
 
-+ **John Doe**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@johndoe@mastodon.social](https://mastodon.social/@johndoe)
-    <br>
-  <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**
++ **Sebastian Lobentanzer**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [https://orcid.org/0000-0003-3399-6695](https://orcid.org/https://orcid.org/0000-0003-3399-6695)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
+    [slobentanzer](https://github.com/slobentanzer)
     <br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany; German Center for Diabetes Research, Munich, Germany
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/slolab/aac-manuscript/issues)
 or email to
-Jane Roe \<jane.roe@whatever.edu\>.
+Sebastian Lobentanzer \<sebastian.lobentanzer@helmholtz-munich.de\>.
 
 
 :::
 
 
-## Abstract {.page_break_before}
+## Main {.page_break_before}
+
+Agentic AI systems---autonomous software agents that can plan, reason, and execute multi-step tasks with minimal human oversight---are rapidly emerging across biomedicine and biotechnology [@doi:10.48550/arXiv.2210.03629; @doi:10.1038/s41586-023-06792-0; @doi:10.1038/s41591-023-02448-8].
+From automated literature curation and clinical data extraction to autonomous laboratory experimentation, these systems promise transformative gains in efficiency, quality, and scalability.
+Yet they also introduce a fundamental shift in how work is organized: unlike traditional software tools where humans maintain direct control, agentic systems require *delegation of authority*---the system assumes command of tasks while humans step back from moment-to-moment decision-making.
+This shift is not merely technical; it is organizational, requiring new forms of negotiation between stakeholders, explicit governance structures, and documentation practices that go well beyond what conventional software development processes provide.
+Specifically, designing agentic automation solutions requires structured negotiation between what users expect and what is technically feasible, explicit governance that defines decision authority at each stage of development, systematic management of data access and sensitivity, and machine-readable documentation that enables validation and integration with research infrastructure.
+
+Despite growing deployment, no structured framework addresses these needs comprehensively.
+Existing documentation approaches such as Model Cards [@doi:10.1145/3287560.3287596] and Datasheets for Datasets [@doi:10.1145/3458723] address retrospective documentation of trained models and datasets, respectively, but do not cover the prospective planning and governance that agentic systems demand.
+AI risk management frameworks such as the NIST AI RMF [@doi:10.6028/NIST.AI.100-1] provide valuable governance guidance but lack structured, machine-readable specification formats needed for integration with research data management infrastructure.
+The result is that agentic automation projects often proceed with ad-hoc documentation that fails to capture key design decisions, risks misalignment between stakeholders, and produces outputs that cannot be validated or reused programmatically.
 
+We present the Agentic Automation Canvas (AAC), a structured framework for designing, governing, and documenting agentic automation projects.
+Inspired by the Business Model Canvas [@isbn:9780470876411], which provides a single-page structured overview of a business model's key components, the AAC captures six interconnected dimensions of an agentic automation project: project definition, user expectations, developer feasibility, governance staging, data access and sensitivity, and outcomes (Figure @fig:canvas a).
+These dimensions form an integrated specification where user requirements link to feasibility assessments, governance stages define decision authority across the development lifecycle, data access policies inform compliance requirements, and outcome metrics enable evaluation against initial expectations.
+The central innovation is the formalization of a bidirectional *contract* between users and developers.
+User expectations are captured as structured requirements with quantified benefit metrics across five dimensions: time savings, quality improvement, risk reduction, enablement of new capabilities, and cost efficiency.
+Each benefit includes baseline and expected values, confidence levels from both user and developer perspectives, and explicit human oversight accounting that deducts supervision time from projected gains.
+Developer feasibility assessments evaluate the technical reality of delivering these benefits, including technology readiness levels, model selection, and implementation architecture.
+By requiring both perspectives, the AAC surfaces misalignments early---before significant resources are committed.
 
+The AAC is implemented as an interactive web application that guides users through structured data capture with real-time validation (Figure @fig:canvas b).
+Crucially, the application runs entirely in the browser---there is no server-side processing, and canvas data never leaves the user's machine.
+This offline-first design is deliberate: agentic automation canvases for clinical workflows, proprietary pipelines, or sensitive research programs may contain information that cannot be shared with external services.
+Completed canvases are exported as Research Object Crate (RO-Crate) packages [@doi:10.3233/DS-210053], self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies including Schema.org [@doi:10.1145/2857274.2857276], W3C DCAT, PROV-O, P-Plan, FRAPO, and the Data Use Ontology [@doi:10.1016/j.xgen.2021.100028] (see Online Methods for details).
+The resulting packages are under the user's full control: they can remain strictly internal, be shared selectively with collaborators or governance boards, or be published openly in research data repositories---FAIR compliance [@doi:10.1038/sdata.2016.18] does not require openness, only structure.
+Canvases carry semantic version numbers, allowing teams to track how a project's design evolves over time---from an initial planning canvas through prototype adjustments to a deployment specification---and to synchronize the living document with actual implementation milestones.
+The schema profile is defined independently of the web application, enabling development of command-line tools, API integrations, and programmatic workflows.
+Task-level feasibility assessments capture technology architecture details---from simple prompting through retrieval-augmented generation to multi-agent orchestration---providing a structured vocabulary for the rapidly evolving landscape of agentic AI implementation patterns.
 
+<!-- TODO: EXAMPLE
+Insert a concrete biomedical use case here (~150-200 words).
+Walk through a specific agentic automation project -- for instance, automated
+literature curation for a knowledge graph, clinical data extraction from
+electronic health records, or agentic lab protocol optimization -- showing how
+the canvas captures the project from initial requirements and benefit
+quantification through governance staging to evaluation of outcomes.
+Reference Figure @fig:canvas c if applicable.
+This example should demonstrate the practical value of the framework and make
+the abstract concepts tangible for the reader. -->
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
+This combination of prospective design, quantified contracts, and FAIR-compliant outputs distinguishes the AAC from existing approaches to AI documentation and governance.
+Model Cards [@doi:10.1145/3287560.3287596] and Datasheets [@doi:10.1145/3458723] are valuable but retrospective---they document artifacts after creation.
+The AAC is prospective: it guides design decisions before and during development, when they can still influence outcomes.
+AI governance frameworks such as the NIST AI RMF provide compliance checklists but not machine-readable specifications that integrate with data management infrastructure.
+The AAC's governance staging goes beyond static risk assessment by defining decision authority at each development phase---from planning through prototype to deployment---establishing milestones, specifying compliance standards, and creating an auditable governance trail that persists as a digital object.
+The benefit quantification model provides a structured language for the value proposition of agentic automation: rather than vague promises of efficiency gains, the AAC requires explicit, measurable expectations with human oversight costs factored in, enabling realistic assessment of net benefits.
+This structured approach to value estimation supports informed go/no-go decisions about whether to pursue, continue, or terminate agentic automation initiatives---a critical capability as organizations face increasing pressure to demonstrate return on AI investment.
+The RO-Crate output format ensures that these specifications persist as reusable digital objects, enabling cross-project comparison, institutional learning, and community development of best practices around agentic system design.
 
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
+The Agentic Automation Canvas is available as an open-source web application at https://aac.slolab.ai, with schema documentation at https://w3id.org/aac/ (Apache License 2.0, currently beta version 0.11.4).
+The framework is being validated through several ongoing projects in biomedical data integration and agentic workflow development.
+Future priorities include a conversational assistant for guided canvas creation, deeper integration with agentic biomedical infrastructure such as LLM platforms [@doi:10.1038/s41587-024-02534-3], composable tool registries [@doi:10.1038/s41587-025-02900-9], and knowledge graph frameworks [@doi:10.1038/s41587-023-01848-y], and community-driven refinement of the schema profile based on adoption across diverse domains.
+As agentic AI systems become increasingly embedded in biomedical research and clinical workflows, structured frameworks for their responsible design are no longer optional---they are a prerequisite for trustworthy deployment.
+The AAC provides the bridge between human planning needs and machine-readable specifications that responsible development of autonomous systems demands, ensuring that the delegation of authority to AI agents is deliberate, transparent, and accountable.
 
-## Basic formatting
+<!-- Figure placeholder: replace images/figure1-placeholder.png with the actual figure file when ready -->
 
-**Bold** __text__
+![**The Agentic Automation Canvas.** **a**, Overview of the six canvas dimensions and their relationships, showing how user expectations connect to developer feasibility assessments, governance staging defines decision authority across the development lifecycle, and data access policies inform compliance requirements. **b**, The web application interface demonstrating structured data capture, benefit quantification, and RO-Crate export. **c**, [Placeholder: worked example or standards mapping workflow].](images/figure1-placeholder.png){#fig:canvas width="100%"}
 
-[Semi-bold text]{.semibold}
 
-[Centered text]{.center}
 
-[Right-aligned text]{.right}
+## Online Methods {.page_break_before}
 
-*Italic* _text_
+### Canvas Data Model
 
-Combined *italics and __bold__*
+The Agentic Automation Canvas schema defines a structured data model organized into six primary sections.
+The **project definition** captures core metadata: title, description, objectives, development stage (planning, prototype, or deployment), domain classification, keywords, funding information, lead organization, and a project-level value summary including headline value statement and primary value driver.
+**User expectations** consist of structured requirements, each with a title, description, user story, priority, status, unit of work definition, monthly volume, and an array of benefit metrics (detailed below).
+Requirements can declare dependencies on other requirements, enabling workflow modeling.
+Stakeholders are linked to requirements by referencing centrally managed person entities.
+**Developer feasibility** operates at two levels: project-level defaults (technology readiness level, overall technical risk, effort estimate) that apply to all tasks, and optional per-task overrides that capture algorithm specifications, tool requirements, model selection (open-source, frontier-model, fine-tuned, custom, or none), and technology architecture including simple prompting, retrieval-augmented generation (with retrieval method, embedding model, and chunking strategy), fine-tuning (with base model, approach, and dataset), and agentic frameworks (with framework, tools, and orchestration details).
+**Governance staging** defines lifecycle phases with start and end dates, agents responsible for decisions (persons, organizations, or software systems), milestones with KPIs, and applicable compliance standards.
+**Data access and sensitivity** captures dataset metadata including format, license, access rights (open, restricted, confidential, or highly restricted), sensitivity level, personal data indicators, DUO terms for use restrictions, and persistent identifiers.
+**Outcomes** track deliverables (with type, status, and persistent identifiers), publications (with DOIs and author lists), and evaluation results (with metrics, methods, and findings).
 
-~~Strikethrough~~
+All persons involved in a project are managed in a centralized persons registry with unique identifiers, names, affiliations, ORCID identifiers, and functional roles from a controlled vocabulary, enabling consistent identity management and role aggregation across the canvas.
 
-1. Ordered list item
-2. Ordered list item
-    a. Sub-item
-    b. Sub-item
-        i. Sub-sub-item
-3. Ordered list item
-    a. Sub-item
+### Benefit Quantification Model
 
-- List item
-- List item
-- List item
+The AAC captures expected benefits through a generalized benefit structure that supports five types: time, quality, risk, enablement, and cost.
+Each benefit metric specifies a metric identifier (from a controlled vocabulary or custom), a human-readable label, a direction indicating whether higher, lower, target, or boolean values are preferred, and whether values represent absolute measures or deltas.
+Baseline and expected values can be numeric, categorical (low/medium/high), or binary, accommodating diverse measurement approaches.
 
-subscript: H~2~O is a liquid
+For time benefits, human oversight values (minutes per unit of work or minutes per month) are explicitly captured and subtracted from gross time savings, producing a realistic net benefit estimate.
+Each benefit includes an aggregation basis (per unit, per month, or one-off), confidence levels from both user and developer perspectives (low/medium/high), and free-text assumptions documentation.
+Benefits aggregate at the project level through volume-weighted calculations, providing headline metrics for decision-making.
 
-superscript: 2^10^ is 1024.
+### Standards Compliance
 
-[unicode superscripts](https://www.google.com/search?q=superscript+generator)⁰¹²³⁴⁵⁶⁷⁸⁹
+The AAC generates RO-Crate 1.1 packages that adhere to the following standards and ontologies:
 
-[unicode subscripts](https://www.google.com/search?q=superscript+generator)₀₁₂₃₄₅₆₇₈₉
+**RO-Crate 1.1** [@doi:10.3233/DS-210053]: The Research Object Crate specification provides a standardized packaging format for research outputs with their metadata.
+Each AAC export produces a ZIP archive containing an `ro-crate-metadata.json` file (JSON-LD), a human-readable preview (`ro-crate-preview.html`), the original canvas data (`canvas.json`), and documentation files.
 
-A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Schema.org** [@doi:10.1145/2857274.2857276]: Project metadata is structured using Schema.org types including `Project`, `ResearchProject`, and `CreativeWork`, enabling discovery through web search engines and metadata catalogs.
+Persons are typed as `schema:Person` with `schema:name`, `schema:affiliation`, and `schema:identifier` (ORCID) properties.
 
-Putting each sentence on its own line has numerous benefits with regard to [editing](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line) and [version control](https://rhodesmill.org/brandon/2012/one-sentence-per-line/).
+**W3C DCAT**: Dataset metadata follows the Data Catalog Vocabulary, with each dataset represented as `dcat:Dataset` including `dcat:distribution`, `dcat:accessRights`, and `dcat:contactPoint` properties, enabling integration with data catalogs.
 
-Line break without starting a new paragraph by putting  
-two spaces at end of line.
+**W3C PROV-O**: Governance activities and their relationships are captured using the Provenance Ontology.
+Governance stages are modeled as `prov:Activity` instances with `prov:wasAssociatedWith` linking to agents and `prov:generated` linking to milestones.
 
-## Document organization
+**P-Plan**: User expectations and requirements are structured using the Plan Ontology, with each requirement represented as a `p-plan:Step` within a `p-plan:Plan`, and dependencies modeled as `p-plan:isPreceededBy` relationships.
 
-Document section headings:
+**FRAPO**: Funding and project administration information follows the Funding, Research Administration & Projects Ontology, enabling integration with research administration systems through `frapo:Grant` and `frapo:FundingAgency` entities.
 
-# Heading 1
+**DUO** [@doi:10.1016/j.xgen.2021.100028]: Data use restrictions are specified using controlled terms from the Data Use Ontology, enabling automated compliance checking.
+Terms such as DUO:0000006 (health or medical or biomedical research) and DUO:0000007 (disease-specific research) provide machine-readable access conditions.
 
-## Heading 2
+### Schema Profile
 
-### Heading 3
+The AAC schema profile is maintained independently of the web application at https://w3id.org/aac/ and includes the following components:
 
-#### Heading 4
+**JSON Schema** (`canvas-schema.json`): A formal JSON Schema (Draft 07) specification that validates canvas data structure.
+The schema enforces required fields (project title, description, and stage), validates enumerated values (TRL levels, risk levels, DUO terms, benefit types, access rights), and ensures referential integrity between person identifiers and their references in stakeholder and agent roles.
 
-##### Heading 5
+**RO-Crate Profile** (`rocrate-profile.json`): Defines the expected structure of generated RO-Crate packages, including required entity types, properties, and relationships, enabling validation of exported packages against the profile.
 
-###### Heading 6
+**Controlled Vocabularies**: Standardized term lists for TRL levels (1--9), DUO terms, governance stages, risk levels (low, medium, high, critical), and functional roles, distributed as JSON files within the schema package.
 
-### A heading centered on its own printed page{.center .page_center}
+**Ontology Mappings**: Detailed documentation of how canvas concepts map to each ontology, provided as human-readable Markdown files covering Schema.org, DCAT, PROV-O, P-Plan, FRAPO, and DUO mappings.
 
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
+### Implementation
 
-Horizontal rule:
+The web application is built with Vue.js 3 and TypeScript, using Vite for build tooling and Tailwind CSS for styling.
+The interface is organized into sections corresponding to the six canvas dimensions, with collapsible panels, contextual help tooltips, and form validation providing immediate feedback on data completeness and correctness.
+Complex data structures (requirements, stakeholders, governance stages, datasets) support add, edit, and delete operations with nested sub-forms.
 
----
+The RO-Crate generation pipeline validates canvas data against the JSON Schema specification, transforms it into RO-Crate-compliant JSON-LD using the ontology mappings, generates an HTML preview, and packages all files into a ZIP archive.
+Users can import existing canvas JSON files for iterative editing and template reuse.
+The application is deployed as a static site, requiring no server-side infrastructure, and is accessible at https://slolab.github.io/agentic-automation-canvas/.
 
-`Heading 1`'s are recommended to be reserved for the title of the manuscript.
-
-`Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
-
-`Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
-
-## Links
-
-Bare URL link: <https://manubot.org>
-
-[Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah](https://manubot.org)
-
-[Link with text](https://manubot.org)
-
-[Link with hover text](https://manubot.org "Manubot Homepage")
-
-[Link by reference][manubot homepage]
-
-[Manubot Homepage]: https://manubot.org
-
-## Citations
-
-Citation by DOI [@doi:10.7554/eLife.32822].
-
-Citation by PubMed Central ID [@pmc:PMC6103790].
-
-Citation by PubMed ID [@pubmed:30718888].
-
-Citation by Wikidata ID [@wikidata:Q56458321].
-
-Citation by ISBN [@isbn:9780262517638].
-
-Citation by URL [@{https://greenelab.github.io/meta-review/}].
-
-Citation by alias [@deep-review].
-
-Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
-Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
-
-Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
-
-[@deep-review]: doi:10.1098/rsif.2017.0387
-
-## Referencing figures, tables, equations
-
-Figure @fig:square-image
-
-Figure @fig:wide-image
-
-Figure @fig:tall-image
-
-Figure @fig:vector-image
-
-Table @tbl:bowling-scores
-
-Equation @eq:regular-equation
-
-Equation @eq:long-equation
-
-## Quotes and code
-
-> Quoted text
-
-> Quoted block of text
->
-> Two roads diverged in a wood, and I—  
-> I took the one less traveled by,  
-> And that has made all the difference.
-
-Code `in the middle` of normal text, aka `inline code`.
-
-Code block with Python syntax highlighting:
-
-```python
-from manubot.cite.doi import expand_short_doi
-
-def test_expand_short_doi():
-    doi = expand_short_doi("10/c3bp")
-    # a string too long to fit within page:
-    assert doi == "10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah"
-```
-
-Code block with no syntax highlighting:
-
-```
-Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript
-```
-
-## Figures
-
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
-
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
-
-![
-**A tall image with a specified height.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
-
-![
-**A vector `.svg` image loaded from GitHub.**
-The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-Note that if you want to export to Word (`.docx`), you need to download the image and reference it locally (e.g. `content/images/vector.svg`) instead of using a URL.
-](https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
-
-## Tables
-
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
-
-Table: A table with a top caption and specified relative column widths.
-{#tbl:bowling-scores}
-
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
-
-Table: A table too wide to fit within page.
-{#tbl:constant-digits}
-
-|          | **Colors** <!-- $colspan="2" --> |                      |
-|:--------:|:--------------------------------:|:--------------------:|
-| **Size** | **Text Color**                   | **Background Color** |
-| big      | blue                             | orange               |
-| small    | black                            | white                |
-
-Table: A table with merged cells using the `attributes` plugin.
-{#tbl: merged-cells}
-
-## Equations
-
-A LaTeX equation:
-
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
-
-An equation too long to fit within page:
-
-$$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
-
-## Special
-
-<i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
-_Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
-
-[Link styled as a button](https://manubot.org "Manubot Homepage"){.button}
-
-Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
-
-::: {#some_id_1 .some_class style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true"}
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-:::
-
-Adding arbitrary HTML attributes to an element with the Manubot `attributes` plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
-
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" -->
-
-Available background colors for text, images, code, banners, etc:  
-
-`white`{.white}
-`lightgrey`{.lightgrey}
-`grey`{.grey}
-`darkgrey`{.darkgrey}
-`black`{.black}
-`lightred`{.lightred}
-`lightyellow`{.lightyellow}
-`lightgreen`{.lightgreen}
-`lightblue`{.lightblue}
-`lightpurple`{.lightpurple}
-`red`{.red}
-`orange`{.orange}
-`yellow`{.yellow}
-`green`{.green}
-`blue`{.blue}
-`purple`{.purple}
-
-Using the [Font Awesome](https://fontawesome.com/) icon set:
-
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-
-<i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i>
-
-[
-<i class="fas fa-scroll fa-lg"></i> **Light Grey Banner**<br>
-useful for *general information* - [manubot.org](https://manubot.org/)
-]{.banner .lightgrey}
-
-[
-<i class="fas fa-info-circle fa-lg"></i> **Blue Banner**<br>
-useful for *important information* - [manubot.org](https://manubot.org/)
-]{.banner .lightblue}
-
-[
-<i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
-useful for *warnings* - [manubot.org](https://manubot.org/)
-]{.banner .lightred}
 
 
 ## References {.page_break_before}
