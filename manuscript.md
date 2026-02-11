@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-11" />
   <meta name="citation_publication_date" content="2026-02-11" />
   <meta property="article:published_time" content="2026-02-11" />
-  <meta name="dc.modified" content="2026-02-11T16:39:57+00:00" />
-  <meta property="article:modified_time" content="2026-02-11T16:39:57+00:00" />
+  <meta name="dc.modified" content="2026-02-11T19:21:56+00:00" />
+  <meta property="article:modified_time" content="2026-02-11T19:21:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/))
+([permalink](https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/))
 was automatically generated
-from [slolab/aac-manuscript@bf1b382](https://github.com/slolab/aac-manuscript/tree/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c)
+from [slolab/aac-manuscript@f33b11a](https://github.com/slolab/aac-manuscript/tree/f33b11aeba7d440ffc993f5075cf906911ab2c64)
 on February 11, 2026.
 </em></small>
 
@@ -158,7 +158,6 @@ The AAC provides the bridge between human planning needs and machine-readable sp
 <!-- Figure placeholder: replace images/figure1-placeholder.png with the actual figure file when ready -->
 
 ![**The Agentic Automation Canvas.** **a**, Overview of the six canvas dimensions and their relationships, showing how user expectations connect to developer feasibility assessments, governance staging defines decision authority across the development lifecycle, and data access policies inform compliance requirements. **b**, Structured data capture, benefit quantification, and RO-Crate export.](images/figure1-placeholder.png){#fig:canvas width="100%"}
-
 
 
 ## Online Methods {.page_break_before}
