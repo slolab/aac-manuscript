@@ -1,8 +1,10 @@
 AAC
 AAC’s
-Agentic
+agentic
 auditable
+bioinformatics
 biomedicine
+chatbots
 composable
 curation
 Datasheets
@@ -21,9 +23,9 @@ Lobentanzer
 misalignments
 NIST
 ontologies
-programmatically
 RMF
 RO
+rollout
 slobentanzer
 tooltips
 transformative

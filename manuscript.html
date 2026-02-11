@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Sebastian Lobentanzer" />
-  <meta name="dcterms.date" content="2026-02-10" />
+  <meta name="dcterms.date" content="2026-02-11" />
   <meta name="keywords" content="agentic systems, generative AI, automation, RO-Crate, FAIR principles, research infrastructure, governance, data protection" />
   <title>The Agentic Automation Canvas: a structured framework for agentic AI project design</title>
   <style>
@@ -50,11 +50,11 @@
   <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
-  <meta name="dc.date" content="2026-02-10" />
-  <meta name="citation_publication_date" content="2026-02-10" />
-  <meta property="article:published_time" content="2026-02-10" />
-  <meta name="dc.modified" content="2026-02-10T16:51:36+00:00" />
-  <meta property="article:modified_time" content="2026-02-10T16:51:36+00:00" />
+  <meta name="dc.date" content="2026-02-11" />
+  <meta name="citation_publication_date" content="2026-02-11" />
+  <meta property="article:published_time" content="2026-02-11" />
+  <meta name="dc.modified" content="2026-02-11T16:39:57+00:00" />
+  <meta property="article:modified_time" content="2026-02-11T16:39:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,10 +90,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://slolab.github.io/aac-manuscript/v/de37b3380482984e3ba5a7891f3a55ed50646a80/">permalink</a>)
+(<a href="https://slolab.github.io/aac-manuscript/v/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/slolab/aac-manuscript/tree/de37b3380482984e3ba5a7891f3a55ed50646a80">slolab/aac-manuscript@de37b33</a>
-on February 10, 2026.
+from <a href="https://github.com/slolab/aac-manuscript/tree/bf1b3826ab84c33fcf9dd4073e3a047b06c9ee1c">slolab/aac-manuscript@bf1b382</a>
+on February 11, 2026.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -115,58 +115,54 @@ Sebastian Lobentanzer &lt;sebastian.lobentanzer@helmholtz-munich.de&gt;.</p>
 </div>
 <h2 class="page_break_before" id="main">Main</h2>
 <p>Agentic AI systems—autonomous software agents that can plan, reason, and execute multi-step tasks with minimal human oversight—are rapidly emerging across biomedicine and biotechnology <span class="citation" data-cites="1FB10vQNQ viLUfCLq 1BrM350HQ">[<a href="#ref-1FB10vQNQ" role="doc-biblioref">1</a>,<a href="#ref-viLUfCLq" role="doc-biblioref">2</a>,<a href="#ref-1BrM350HQ" role="doc-biblioref">3</a>]</span>.
+<!-- UPDATE REFS -->
 From automated literature curation and clinical data extraction to autonomous laboratory experimentation, these systems promise transformative gains in efficiency, quality, and scalability.
 Yet they also introduce a fundamental shift in how work is organized: unlike traditional software tools where humans maintain direct control, agentic systems require <em>delegation of authority</em>—the system assumes command of tasks while humans step back from moment-to-moment decision-making.
-This shift is not merely technical; it is organizational, requiring new forms of negotiation between stakeholders, explicit governance structures, and documentation practices that go well beyond what conventional software development processes provide.
-Specifically, designing agentic automation solutions requires structured negotiation between what users expect and what is technically feasible, explicit governance that defines decision authority at each stage of development, systematic management of data access and sensitivity, and machine-readable documentation that enables validation and integration with research infrastructure.</p>
-<p>Despite growing deployment, no structured framework addresses these needs comprehensively.
-Existing documentation approaches such as Model Cards <span class="citation" data-cites="TqPn1DCX">[<a href="#ref-TqPn1DCX" role="doc-biblioref">4</a>]</span> and Datasheets for Datasets <span class="citation" data-cites="oquSBF8X">[<a href="#ref-oquSBF8X" role="doc-biblioref">5</a>]</span> address retrospective documentation of trained models and datasets, respectively, but do not cover the prospective planning and governance that agentic systems demand.
-AI risk management frameworks such as the NIST AI RMF <span class="citation" data-cites="14ru3OqJh">[<a href="#ref-14ru3OqJh" role="doc-biblioref">6</a>]</span> provide valuable governance guidance but lack structured, machine-readable specification formats needed for integration with research data management infrastructure.
-The result is that agentic automation projects often proceed with ad-hoc documentation that fails to capture key design decisions, risks misalignment between stakeholders, and produces outputs that cannot be validated or reused programmatically.</p>
+This shift necessitates new forms of negotiation between stakeholders, explicit governance structures, and documentation practices that go well beyond what conventional software development processes provide.
+In the current landscape, there is no established planning process for agentic systems; they are conceived <em>ad hoc</em>, and they are evaluated <em>ad hoc</em>.
+Often, the balance between user expectations and technical feasibility is not clear, and the record of project details and governance is neither standardised nor machine-readable.
+This can lead to the surprising finding that the system is much less effective in practice than expected.
+<!-- TODO REF AI scribes in hospital --></p>
 <p>We present the Agentic Automation Canvas (AAC), a structured framework for designing, governing, and documenting agentic automation projects.
-Inspired by the Business Model Canvas <span class="citation" data-cites="WvC62IZf">[<a href="#ref-WvC62IZf" role="doc-biblioref">7</a>]</span>, which provides a single-page structured overview of a business model’s key components, the AAC captures six interconnected dimensions of an agentic automation project: project definition, user expectations, developer feasibility, governance staging, data access and sensitivity, and outcomes (Figure <a href="#fig:canvas">1</a> a).
+Inspired by the Business Model Canvas <span class="citation" data-cites="WvC62IZf">[<a href="#ref-WvC62IZf" role="doc-biblioref">4</a>]</span>, which provides a single-page structured overview of a business model’s key components, the AAC captures six interconnected dimensions of an agentic automation project: project definition, user expectations, developer feasibility, governance staging, data access and sensitivity, and outcomes (Figure <a href="#fig:canvas">1</a> a).
 These dimensions form an integrated specification where user requirements link to feasibility assessments, governance stages define decision authority across the development lifecycle, data access policies inform compliance requirements, and outcome metrics enable evaluation against initial expectations.
 The central innovation is the formalization of a bidirectional <em>contract</em> between users and developers.
 User expectations are captured as structured requirements with quantified benefit metrics across five dimensions: time savings, quality improvement, risk reduction, enablement of new capabilities, and cost efficiency.
 Each benefit includes baseline and expected values, confidence levels from both user and developer perspectives, and explicit human oversight accounting that deducts supervision time from projected gains.
 Developer feasibility assessments evaluate the technical reality of delivering these benefits, including technology readiness levels, model selection, and implementation architecture.
-By requiring both perspectives, the AAC surfaces misalignments early—before significant resources are committed.</p>
-<p>The AAC is implemented as an interactive web application that guides users through structured data capture with real-time validation (Figure <a href="#fig:canvas">1</a> b).
+By requiring both perspectives, the AAC surfaces misalignments early—before significant resources are committed (Figure <a href="#fig:canvas">1</a> b).</p>
+<p>The AAC is implemented as an interactive web application that guides users through structured data capture with real-time validation (https://aac.slolab.ai).
 Crucially, the application runs entirely in the browser—there is no server-side processing, and canvas data never leaves the user’s machine.
-This offline-first design is deliberate: agentic automation canvases for clinical workflows, proprietary pipelines, or sensitive research programs may contain information that cannot be shared with external services.
-Completed canvases are exported as Research Object Crate (RO-Crate) packages <span class="citation" data-cites="oCW2bFIv">[<a href="#ref-oCW2bFIv" role="doc-biblioref">8</a>]</span>, self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies including Schema.org <span class="citation" data-cites="vC6te3yd">[<a href="#ref-vC6te3yd" role="doc-biblioref">9</a>]</span>, W3C DCAT, PROV-O, P-Plan, FRAPO, and the Data Use Ontology <span class="citation" data-cites="UoHUywsk">[<a href="#ref-UoHUywsk" role="doc-biblioref">10</a>]</span> (see Online Methods for details).
-The resulting packages are under the user’s full control: they can remain strictly internal, be shared selectively with collaborators or governance boards, or be published openly in research data repositories—FAIR compliance <span class="citation" data-cites="6DjakjNS">[<a href="#ref-6DjakjNS" role="doc-biblioref">11</a>]</span> does not require openness, only structure.
+While agentic automation canvases for clinical workflows, proprietary pipelines, or sensitive research programs may contain information that cannot be shared with external services, the machine-interoperable format facilitates transparent public sharing and aggregation, if desired.</p>
+<p>Completed canvases are exported as Research Object Crate (RO-Crate) packages <span class="citation" data-cites="oCW2bFIv">[<a href="#ref-oCW2bFIv" role="doc-biblioref">5</a>]</span>, self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies including Schema.org <span class="citation" data-cites="vC6te3yd">[<a href="#ref-vC6te3yd" role="doc-biblioref">6</a>]</span>, W3C DCAT, PROV-O, P-Plan, FRAPO, and the Data Use Ontology <span class="citation" data-cites="UoHUywsk">[<a href="#ref-UoHUywsk" role="doc-biblioref">7</a>]</span> (see Online Methods for details).
+The resulting packages are FAIR compliant <span class="citation" data-cites="6DjakjNS">[<a href="#ref-6DjakjNS" role="doc-biblioref">8</a>]</span> but under the user’s full control: they can remain strictly internal, be shared selectively with collaborators or governance boards, or be published openly in research data repositories.
 Canvases carry semantic version numbers, allowing teams to track how a project’s design evolves over time—from an initial planning canvas through prototype adjustments to a deployment specification—and to synchronize the living document with actual implementation milestones.
-The schema profile is defined independently of the web application, enabling development of command-line tools, API integrations, and programmatic workflows.
-Task-level feasibility assessments capture technology architecture details—from simple prompting through retrieval-augmented generation to multi-agent orchestration—providing a structured vocabulary for the rapidly evolving landscape of agentic AI implementation patterns.</p>
-<!-- TODO: EXAMPLE
-Insert a concrete biomedical use case here (~150-200 words).
-Walk through a specific agentic automation project -- for instance, automated
-literature curation for a knowledge graph, clinical data extraction from
-electronic health records, or agentic lab protocol optimization -- showing how
-the canvas captures the project from initial requirements and benefit
-quantification through governance staging to evaluation of outcomes.
-Reference Figure @fig:canvas c if applicable.
-This example should demonstrate the practical value of the framework and make
-the abstract concepts tangible for the reader. -->
+The schema profile is defined independently of the web application (https://w3id.org/aac), enabling development of command-line tools, API integrations, and programmatic workflows.
+The classes defined in the AAC schema offer a structured vocabulary for the rapidly evolving landscape of agentic AI implementation patterns, complementary to the existing semantic web base vocabulary.</p>
+<p>We are applying the AAC to numerous projects, spanning single-cell bioinformatics, clinical research assistants, drug target databases, patient-facing chatbots, research data management, and institutional AI coordination.
+Use cases range from individual project design through portfolio management to research infrastructure specification; for instance, in our project to make the Open Targets drug discovery platform more accessible through agentic natural language interfaces.
+The canvas captures user expectations—bench scientists want to query drug-target associations conversationally rather than through complex database interfaces, with expected benefit quantified as time-to-insight reduction and accessibility for non-computational researchers.
+Developer feasibility assesses that retrieval-augmented generation over the Open Targets knowledge graph is technically viable but carries medium-high risk, particularly for queries spanning proprietary partner data (restricted access) and public evidence (open).
+Governance staging defines validation by the platform team during prototyping, with staged rollout from internal testing to public deployment.
+Outcome metrics link back to the initial benefit estimates, enabling direct comparison of expected versus actual gains.
+Without the canvas, these considerations would live in scattered documents and slide decks—if captured at all.</p>
 <p>This combination of prospective design, quantified contracts, and FAIR-compliant outputs distinguishes the AAC from existing approaches to AI documentation and governance.
-Model Cards <span class="citation" data-cites="TqPn1DCX">[<a href="#ref-TqPn1DCX" role="doc-biblioref">4</a>]</span> and Datasheets <span class="citation" data-cites="oquSBF8X">[<a href="#ref-oquSBF8X" role="doc-biblioref">5</a>]</span> are valuable but retrospective—they document artifacts after creation.
+Model Cards <span class="citation" data-cites="TqPn1DCX">[<a href="#ref-TqPn1DCX" role="doc-biblioref">9</a>]</span> and Datasheets <span class="citation" data-cites="oquSBF8X">[<a href="#ref-oquSBF8X" role="doc-biblioref">10</a>]</span> are valuable but retrospective—they document artifacts after creation.
 The AAC is prospective: it guides design decisions before and during development, when they can still influence outcomes.
-AI governance frameworks such as the NIST AI RMF provide compliance checklists but not machine-readable specifications that integrate with data management infrastructure.
+AI governance frameworks such as the NIST AI RMF <span class="citation" data-cites="14ru3OqJh">[<a href="#ref-14ru3OqJh" role="doc-biblioref">11</a>]</span> provide compliance checklists but not machine-readable specifications that integrate with data management infrastructure.
 The AAC’s governance staging goes beyond static risk assessment by defining decision authority at each development phase—from planning through prototype to deployment—establishing milestones, specifying compliance standards, and creating an auditable governance trail that persists as a digital object.
 The benefit quantification model provides a structured language for the value proposition of agentic automation: rather than vague promises of efficiency gains, the AAC requires explicit, measurable expectations with human oversight costs factored in, enabling realistic assessment of net benefits.
 This structured approach to value estimation supports informed go/no-go decisions about whether to pursue, continue, or terminate agentic automation initiatives—a critical capability as organizations face increasing pressure to demonstrate return on AI investment.
 The RO-Crate output format ensures that these specifications persist as reusable digital objects, enabling cross-project comparison, institutional learning, and community development of best practices around agentic system design.</p>
-<p>The Agentic Automation Canvas is available as an open-source web application at https://aac.slolab.ai, with schema documentation at https://w3id.org/aac/ (Apache License 2.0, currently beta version 0.11.4).
-The framework is being validated through several ongoing projects in biomedical data integration and agentic workflow development.
+<p>The framework is being validated through several ongoing projects in biomedical data integration and agentic workflow development.
 Future priorities include a conversational assistant for guided canvas creation, deeper integration with agentic biomedical infrastructure such as LLM platforms <span class="citation" data-cites="ZxfmpRMh">[<a href="#ref-ZxfmpRMh" role="doc-biblioref">12</a>]</span>, composable tool registries <span class="citation" data-cites="19fung9lh">[<a href="#ref-19fung9lh" role="doc-biblioref">13</a>]</span>, and knowledge graph frameworks <span class="citation" data-cites="tr1XjZ1R">[<a href="#ref-tr1XjZ1R" role="doc-biblioref">14</a>]</span>, and community-driven refinement of the schema profile based on adoption across diverse domains.
 As agentic AI systems become increasingly embedded in biomedical research and clinical workflows, structured frameworks for their responsible design are no longer optional—they are a prerequisite for trustworthy deployment.
 The AAC provides the bridge between human planning needs and machine-readable specifications that responsible development of autonomous systems demands, ensuring that the delegation of authority to AI agents is deliberate, transparent, and accountable.</p>
 <!-- Figure placeholder: replace images/figure1-placeholder.png with the actual figure file when ready -->
 <div id="fig:canvas" class="fignos">
 <figure>
-<img src="images/figure1-placeholder.png" style="width:100.0%" alt="Figure 1: The Agentic Automation Canvas. a, Overview of the six canvas dimensions and their relationships, showing how user expectations connect to developer feasibility assessments, governance staging defines decision authority across the development lifecycle, and data access policies inform compliance requirements. b, The web application interface demonstrating structured data capture, benefit quantification, and RO-Crate export. c, [Placeholder: worked example or standards mapping workflow]." />
-<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>The Agentic Automation Canvas.</strong> <strong>a</strong>, Overview of the six canvas dimensions and their relationships, showing how user expectations connect to developer feasibility assessments, governance staging defines decision authority across the development lifecycle, and data access policies inform compliance requirements. <strong>b</strong>, The web application interface demonstrating structured data capture, benefit quantification, and RO-Crate export. <strong>c</strong>, [Placeholder: worked example or standards mapping workflow].</figcaption>
+<img src="images/figure1-placeholder.png" style="width:100.0%" alt="Figure 1: The Agentic Automation Canvas. a, Overview of the six canvas dimensions and their relationships, showing how user expectations connect to developer feasibility assessments, governance staging defines decision authority across the development lifecycle, and data access policies inform compliance requirements. b, Structured data capture, benefit quantification, and RO-Crate export." />
+<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>The Agentic Automation Canvas.</strong> <strong>a</strong>, Overview of the six canvas dimensions and their relationships, showing how user expectations connect to developer feasibility assessments, governance staging defines decision authority across the development lifecycle, and data access policies inform compliance requirements. <strong>b</strong>, Structured data capture, benefit quantification, and RO-Crate export.</figcaption>
 </figure>
 </div>
 <h2 class="page_break_before" id="online-methods">Online Methods</h2>
@@ -190,16 +186,16 @@ Each benefit includes an aggregation basis (per unit, per month, or one-off), co
 Benefits aggregate at the project level through volume-weighted calculations, providing headline metrics for decision-making.</p>
 <h3 id="standards-compliance">Standards Compliance</h3>
 <p>The AAC generates RO-Crate 1.1 packages that adhere to the following standards and ontologies:</p>
-<p><strong>RO-Crate 1.1</strong> <span class="citation" data-cites="oCW2bFIv">[<a href="#ref-oCW2bFIv" role="doc-biblioref">8</a>]</span>: The Research Object Crate specification provides a standardized packaging format for research outputs with their metadata.
+<p><strong>RO-Crate 1.1</strong> <span class="citation" data-cites="oCW2bFIv">[<a href="#ref-oCW2bFIv" role="doc-biblioref">5</a>]</span>: The Research Object Crate specification provides a standardized packaging format for research outputs with their metadata.
 Each AAC export produces a ZIP archive containing an <code>ro-crate-metadata.json</code> file (JSON-LD), a human-readable preview (<code>ro-crate-preview.html</code>), the original canvas data (<code>canvas.json</code>), and documentation files.</p>
-<p><strong>Schema.org</strong> <span class="citation" data-cites="vC6te3yd">[<a href="#ref-vC6te3yd" role="doc-biblioref">9</a>]</span>: Project metadata is structured using Schema.org types including <code>Project</code>, <code>ResearchProject</code>, and <code>CreativeWork</code>, enabling discovery through web search engines and metadata catalogs.
+<p><strong>Schema.org</strong> <span class="citation" data-cites="vC6te3yd">[<a href="#ref-vC6te3yd" role="doc-biblioref">6</a>]</span>: Project metadata is structured using Schema.org types including <code>Project</code>, <code>ResearchProject</code>, and <code>CreativeWork</code>, enabling discovery through web search engines and metadata catalogs.
 Persons are typed as <code>schema:Person</code> with <code>schema:name</code>, <code>schema:affiliation</code>, and <code>schema:identifier</code> (ORCID) properties.</p>
 <p><strong>W3C DCAT</strong>: Dataset metadata follows the Data Catalog Vocabulary, with each dataset represented as <code>dcat:Dataset</code> including <code>dcat:distribution</code>, <code>dcat:accessRights</code>, and <code>dcat:contactPoint</code> properties, enabling integration with data catalogs.</p>
 <p><strong>W3C PROV-O</strong>: Governance activities and their relationships are captured using the Provenance Ontology.
 Governance stages are modeled as <code>prov:Activity</code> instances with <code>prov:wasAssociatedWith</code> linking to agents and <code>prov:generated</code> linking to milestones.</p>
 <p><strong>P-Plan</strong>: User expectations and requirements are structured using the Plan Ontology, with each requirement represented as a <code>p-plan:Step</code> within a <code>p-plan:Plan</code>, and dependencies modeled as <code>p-plan:isPreceededBy</code> relationships.</p>
 <p><strong>FRAPO</strong>: Funding and project administration information follows the Funding, Research Administration &amp; Projects Ontology, enabling integration with research administration systems through <code>frapo:Grant</code> and <code>frapo:FundingAgency</code> entities.</p>
-<p><strong>DUO</strong> <span class="citation" data-cites="UoHUywsk">[<a href="#ref-UoHUywsk" role="doc-biblioref">10</a>]</span>: Data use restrictions are specified using controlled terms from the Data Use Ontology, enabling automated compliance checking.
+<p><strong>DUO</strong> <span class="citation" data-cites="UoHUywsk">[<a href="#ref-UoHUywsk" role="doc-biblioref">7</a>]</span>: Data use restrictions are specified using controlled terms from the Data Use Ontology, enabling automated compliance checking.
 Terms such as DUO:0000006 (health or medical or biomedical research) and DUO:0000007 (disease-specific research) provide machine-readable access conditions.</p>
 <h3 id="schema-profile">Schema Profile</h3>
 <p>The AAC schema profile is maintained independently of the web application at https://w3id.org/aac/ and includes the following components:</p>
@@ -227,29 +223,29 @@ The application is deployed as a static site, requiring no server-side infrastru
 <div id="ref-1BrM350HQ" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Large language models in medicine</strong> <div class="csl-block">Arun James Thirunavukarasu, Darren Shu Jeng Ting, Kabilan Elangovan, Laura Gutierrez, Ting Fang Tan, Daniel Shu Wei Ting</div> <em>Nature Medicine</em> (2023-07-17) <a href="https://doi.org/gswtrs">https://doi.org/gswtrs</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41591-023-02448-8">10.1038/s41591-023-02448-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/37460753">37460753</a></div></div>
 </div>
-<div id="ref-TqPn1DCX" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Model Cards for Model Reporting</strong> <div class="csl-block">Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Timnit Gebru</div> <em>Proceedings of the Conference on Fairness, Accountability, and Transparency</em> (2019-01-29) <a href="https://doi.org/gftgjg">https://doi.org/gftgjg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3287560.3287596">10.1145/3287560.3287596</a></div></div>
-</div>
-<div id="ref-oquSBF8X" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Datasheets for datasets</strong> <div class="csl-block">Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, Kate Crawford</div> <em>Communications of the ACM</em> (2021-11-19) <a href="https://doi.org/gnx363">https://doi.org/gnx363</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3458723">10.1145/3458723</a></div></div>
-</div>
-<div id="ref-14ru3OqJh" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Artificial Intelligence Risk Management Framework (AI RMF 1.0)</strong> <div class="csl-block">Elham Tabassi</div> <em>National Institute of Standards and Technology (U.S.)</em> (2023-01-26) <a href="https://doi.org/gtj4ks">https://doi.org/gtj4ks</a> <div class="csl-block">DOI: <a href="https://doi.org/10.6028/nist.ai.100-1">10.6028/nist.ai.100-1</a></div></div>
-</div>
 <div id="ref-WvC62IZf" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Business model generation: a handbook for visionaries, game changers, and challengers</strong> <div class="csl-block">Alexander Osterwalder, Yves Pigneur, Tim Clark</div> <em>Wiley</em> (2010) <div class="csl-block">ISBN: 9780470876411</div></div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Business model generation: a handbook for visionaries, game changers, and challengers</strong> <div class="csl-block">Alexander Osterwalder, Yves Pigneur, Tim Clark</div> <em>Wiley</em> (2010) <div class="csl-block">ISBN: 9780470876411</div></div>
 </div>
 <div id="ref-oCW2bFIv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Packaging research artefacts with RO-Crate</strong> <div class="csl-block">Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, … Carole Goble</div> <em>Data Science</em> (2022-01-04) <a href="https://doi.org/gp3rvc">https://doi.org/gp3rvc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3233/ds-210053">10.3233/ds-210053</a></div></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Packaging research artefacts with RO-Crate</strong> <div class="csl-block">Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, … Carole Goble</div> <em>Data Science</em> (2022-01-04) <a href="https://doi.org/gp3rvc">https://doi.org/gp3rvc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3233/ds-210053">10.3233/ds-210053</a></div></div>
 </div>
 <div id="ref-vC6te3yd" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>Schema.org: Evolution of Structured Data on the Web</strong> <div class="csl-block">RV Guha, Dan Brickley, Steve MacBeth</div> <em>Queue</em> (2015-11) <a href="https://doi.org/gm8bbd">https://doi.org/gm8bbd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/2857274.2857276">10.1145/2857274.2857276</a></div></div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Schema.org: Evolution of Structured Data on the Web</strong> <div class="csl-block">RV Guha, Dan Brickley, Steve MacBeth</div> <em>Queue</em> (2015-11) <a href="https://doi.org/gm8bbd">https://doi.org/gm8bbd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/2857274.2857276">10.1145/2857274.2857276</a></div></div>
 </div>
 <div id="ref-UoHUywsk" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>The Data Use Ontology to streamline responsible access to human biomedical datasets</strong> <div class="csl-block">Jonathan Lawson, Moran N Cabili, Giselle Kerry, Tiffany Boughtwood, Adrian Thorogood, Pinar Alper, Sarion R Bowers, Rebecca R Boyles, Anthony J Brookes, Matthew Brush, … Mélanie Courtot</div> <em>Cell Genomics</em> (2021-11) <a href="https://doi.org/gpp6td">https://doi.org/gpp6td</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.xgen.2021.100028">10.1016/j.xgen.2021.100028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34820659">34820659</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8591903">PMC8591903</a></div></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>The Data Use Ontology to streamline responsible access to human biomedical datasets</strong> <div class="csl-block">Jonathan Lawson, Moran N Cabili, Giselle Kerry, Tiffany Boughtwood, Adrian Thorogood, Pinar Alper, Sarion R Bowers, Rebecca R Boyles, Anthony J Brookes, Matthew Brush, … Mélanie Courtot</div> <em>Cell Genomics</em> (2021-11) <a href="https://doi.org/gpp6td">https://doi.org/gpp6td</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.xgen.2021.100028">10.1016/j.xgen.2021.100028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34820659">34820659</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8591903">PMC8591903</a></div></div>
 </div>
 <div id="ref-6DjakjNS" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>The FAIR Guiding Principles for scientific data management and stewardship</strong> <div class="csl-block">Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E Bourne, … Barend Mons</div> <em>Scientific Data</em> (2016-03-15) <a href="https://doi.org/bdd4">https://doi.org/bdd4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26978244">26978244</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175">PMC4792175</a></div></div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>The FAIR Guiding Principles for scientific data management and stewardship</strong> <div class="csl-block">Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E Bourne, … Barend Mons</div> <em>Scientific Data</em> (2016-03-15) <a href="https://doi.org/bdd4">https://doi.org/bdd4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26978244">26978244</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175">PMC4792175</a></div></div>
+</div>
+<div id="ref-TqPn1DCX" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>Model Cards for Model Reporting</strong> <div class="csl-block">Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Timnit Gebru</div> <em>Proceedings of the Conference on Fairness, Accountability, and Transparency</em> (2019-01-29) <a href="https://doi.org/gftgjg">https://doi.org/gftgjg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3287560.3287596">10.1145/3287560.3287596</a></div></div>
+</div>
+<div id="ref-oquSBF8X" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Datasheets for datasets</strong> <div class="csl-block">Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, Kate Crawford</div> <em>Communications of the ACM</em> (2021-11-19) <a href="https://doi.org/gnx363">https://doi.org/gnx363</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1145/3458723">10.1145/3458723</a></div></div>
+</div>
+<div id="ref-14ru3OqJh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Artificial Intelligence Risk Management Framework (AI RMF 1.0)</strong> <div class="csl-block">Elham Tabassi</div> <em>National Institute of Standards and Technology (U.S.)</em> (2023-01-26) <a href="https://doi.org/gtj4ks">https://doi.org/gtj4ks</a> <div class="csl-block">DOI: <a href="https://doi.org/10.6028/nist.ai.100-1">10.6028/nist.ai.100-1</a></div></div>
 </div>
 <div id="ref-ZxfmpRMh" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>A platform for the biomedical application of large language models</strong> <div class="csl-block">Sebastian Lobentanzer, Shaohong Feng, Noah Bruderer, Andreas Maier, Adrián G Díaz, Amy Strange, Anis Ismail, Anton Kulaga, Aurelien Dugourd, … Julio Saez-Rodriguez</div> <em>Nature Biotechnology</em> (2025-01-22) <a href="https://doi.org/g82s8x">https://doi.org/g82s8x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41587-024-02534-3">10.1038/s41587-024-02534-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/39843580">39843580</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12216031">PMC12216031</a></div></div>
