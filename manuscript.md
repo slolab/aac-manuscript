@@ -10,7 +10,7 @@ keywords:
 - governance
 - data protection
 lang: en-US
-date-meta: '2026-02-11'
+date-meta: '2026-02-12'
 author-meta:
 - Sebastian Lobentanzer
 header-includes: |
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
-  <meta name="dc.date" content="2026-02-11" />
-  <meta name="citation_publication_date" content="2026-02-11" />
-  <meta property="article:published_time" content="2026-02-11" />
-  <meta name="dc.modified" content="2026-02-11T19:21:56+00:00" />
-  <meta property="article:modified_time" content="2026-02-11T19:21:56+00:00" />
+  <meta name="dc.date" content="2026-02-12" />
+  <meta name="citation_publication_date" content="2026-02-12" />
+  <meta property="article:published_time" content="2026-02-12" />
+  <meta name="dc.modified" content="2026-02-12T20:14:44+00:00" />
+  <meta property="article:modified_time" content="2026-02-12T20:14:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/5b0c234ab9047ecfe28f757451bec80b8cdf260c/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/5b0c234ab9047ecfe28f757451bec80b8cdf260c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/5b0c234ab9047ecfe28f757451bec80b8cdf260c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/f33b11aeba7d440ffc993f5075cf906911ab2c64/))
+([permalink](https://slolab.github.io/aac-manuscript/v/5b0c234ab9047ecfe28f757451bec80b8cdf260c/))
 was automatically generated
-from [slolab/aac-manuscript@f33b11a](https://github.com/slolab/aac-manuscript/tree/f33b11aeba7d440ffc993f5075cf906911ab2c64)
-on February 11, 2026.
+from [slolab/aac-manuscript@5b0c234](https://github.com/slolab/aac-manuscript/tree/5b0c234ab9047ecfe28f757451bec80b8cdf260c)
+on February 12, 2026.
 </em></small>
 
 
@@ -111,19 +111,22 @@ Yet they also introduce a fundamental shift in how work is organized: unlike tra
 This shift necessitates new forms of negotiation between stakeholders, explicit governance structures, and documentation practices that go well beyond what conventional software development processes provide.
 In the current landscape, there is no established planning process for agentic systems; they are conceived *ad hoc*, and they are evaluated *ad hoc*.
 Often, the balance between user expectations and technical feasibility is not clear, and the record of project details and governance is neither standardised nor machine-readable.
-This can lead to the surprising finding that the system is much less effective in practice than expected.
+This can lead to the surprising finding that these systems are much less effective in practice than expected.
 <!-- TODO REF AI scribes in hospital -->
 
 We present the Agentic Automation Canvas (AAC), a structured framework for designing, governing, and documenting agentic automation projects.
 Inspired by the Business Model Canvas [@isbn:9780470876411], which provides a single-page structured overview of a business model's key components, the AAC captures six interconnected dimensions of an agentic automation project: project definition, user expectations, developer feasibility, governance staging, data access and sensitivity, and outcomes (Figure @fig:canvas a).
-These dimensions form an integrated specification where user requirements link to feasibility assessments, governance stages define decision authority across the development lifecycle, data access policies inform compliance requirements, and outcome metrics enable evaluation against initial expectations.
+
 The central innovation is the formalization of a bidirectional *contract* between users and developers.
 User expectations are captured as structured requirements with quantified benefit metrics across five dimensions: time savings, quality improvement, risk reduction, enablement of new capabilities, and cost efficiency.
 Each benefit includes baseline and expected values, confidence levels from both user and developer perspectives, and explicit human oversight accounting that deducts supervision time from projected gains.
 Developer feasibility assessments evaluate the technical reality of delivering these benefits, including technology readiness levels, model selection, and implementation architecture.
+The canvas is primarily designed as a communication tool; ideally, user and developer are filling it out together.
 By requiring both perspectives, the AAC surfaces misalignments early---before significant resources are committed (Figure @fig:canvas b).
 
-The AAC is implemented as an interactive web application that guides users through structured data capture with real-time validation (https://aac.slolab.ai).
+![**The Agentic Automation Canvas.** **a)** Overview of the six canvas dimensions. Single projects are captured in FAIR, versioned, and shareable RO-crates. By being fully client-side, the application is private by design. **b)** The canvas is a communication tool to be used between users and developers of a project, balancing expected gains against technical feasibility considerations.](images/aac-f1.png){#fig:canvas width="100%"}
+
+The AAC is implemented as fully semantic-web compatible metadata schema, made accessible by an interactive web application that guides users through structured data capture with real-time validation (https://aac.slolab.ai).
 Crucially, the application runs entirely in the browser---there is no server-side processing, and canvas data never leaves the user's machine.
 While agentic automation canvases for clinical workflows, proprietary pipelines, or sensitive research programs may contain information that cannot be shared with external services, the machine-interoperable format facilitates transparent public sharing and aggregation, if desired.
 
@@ -134,7 +137,8 @@ The schema profile is defined independently of the web application (https://w3id
 The classes defined in the AAC schema offer a structured vocabulary for the rapidly evolving landscape of agentic AI implementation patterns, complementary to the existing semantic web base vocabulary.
 
 We are applying the AAC to numerous projects, spanning single-cell bioinformatics, clinical research assistants, drug target databases, patient-facing chatbots, research data management, and institutional AI coordination.
-Use cases range from individual project design through portfolio management to research infrastructure specification; for instance, in our project to make the Open Targets drug discovery platform more accessible through agentic natural language interfaces.
+Use cases range from individual project design through portfolio management to research infrastructure specification.
+An example is our project to make the Open Targets drug discovery platform more accessible through agentic natural language interfaces.
 The canvas captures user expectations---bench scientists want to query drug-target associations conversationally rather than through complex database interfaces, with expected benefit quantified as time-to-insight reduction and accessibility for non-computational researchers.
 Developer feasibility assesses that retrieval-augmented generation over the Open Targets knowledge graph is technically viable but carries medium-high risk, particularly for queries spanning proprietary partner data (restricted access) and public evidence (open).
 Governance staging defines validation by the platform team during prototyping, with staged rollout from internal testing to public deployment.
@@ -146,18 +150,17 @@ Model Cards [@doi:10.1145/3287560.3287596] and Datasheets [@doi:10.1145/3458723]
 The AAC is prospective: it guides design decisions before and during development, when they can still influence outcomes.
 AI governance frameworks such as the NIST AI RMF [@doi:10.6028/NIST.AI.100-1] provide compliance checklists but not machine-readable specifications that integrate with data management infrastructure.
 The AAC's governance staging goes beyond static risk assessment by defining decision authority at each development phase---from planning through prototype to deployment---establishing milestones, specifying compliance standards, and creating an auditable governance trail that persists as a digital object.
-The benefit quantification model provides a structured language for the value proposition of agentic automation: rather than vague promises of efficiency gains, the AAC requires explicit, measurable expectations with human oversight costs factored in, enabling realistic assessment of net benefits.
-This structured approach to value estimation supports informed go/no-go decisions about whether to pursue, continue, or terminate agentic automation initiatives---a critical capability as organizations face increasing pressure to demonstrate return on AI investment.
+
+The benefit quantification model provides a structured language for the value proposition of agentic automation.
+The AAC requires explicit, measurable expectations with human oversight costs factored in, enabling realistic assessment of net benefits.
+This structured approach to value estimation supports informed go/no-go decisions about whether to pursue, continue, or terminate agentic automation initiatives.
 The RO-Crate output format ensures that these specifications persist as reusable digital objects, enabling cross-project comparison, institutional learning, and community development of best practices around agentic system design.
 
-The framework is being validated through several ongoing projects in biomedical data integration and agentic workflow development.
-Future priorities include a conversational assistant for guided canvas creation, deeper integration with agentic biomedical infrastructure such as LLM platforms [@doi:10.1038/s41587-024-02534-3], composable tool registries [@doi:10.1038/s41587-025-02900-9], and knowledge graph frameworks [@doi:10.1038/s41587-023-01848-y], and community-driven refinement of the schema profile based on adoption across diverse domains.
-As agentic AI systems become increasingly embedded in biomedical research and clinical workflows, structured frameworks for their responsible design are no longer optional---they are a prerequisite for trustworthy deployment.
-The AAC provides the bridge between human planning needs and machine-readable specifications that responsible development of autonomous systems demands, ensuring that the delegation of authority to AI agents is deliberate, transparent, and accountable.
+We implement our diverse use cases as prospective case studies with explicit pre-registration of expectations, the analysis of which will allow quantitative insights into the automation of complex processes in the research landscape.
+However, outside of projects with our direct involvement, a significant limitation of the decentralised private-by-design RO-Crates as the only output of the canvas is the need for additional mechanisms for their sharing and findability.
+In the future, we aim to integrate the resulting metadata repository more closely with agentic tooling such as our MCP server registry [@doi:10.1038/s41587-025-02900-9], the registry for our knowledge graph framework components [@doi:10.1038/s41587-023-01848-y], and community research software platforms [ref biotools], in order to allow the reuse and re-composition of open-source agentic workflows.
 
-<!-- Figure placeholder: replace images/figure1-placeholder.png with the actual figure file when ready -->
-
-![**The Agentic Automation Canvas.** **a**, Overview of the six canvas dimensions and their relationships, showing how user expectations connect to developer feasibility assessments, governance staging defines decision authority across the development lifecycle, and data access policies inform compliance requirements. **b**, Structured data capture, benefit quantification, and RO-Crate export.](images/figure1-placeholder.png){#fig:canvas width="100%"}
+The canvas is *not* meant as a contract to be *enforced*; rather, it is designed as a living document to facilitate the deliberate, transparent, and accountable conversation between users and developers from different backgrounds. For any given project, it is expected to change through the development process; thus, it is adaptable by design. We welcome contributors and use cases from the community, which we continually support through open-source mechanisms.
 
 
 ## Online Methods {.page_break_before}
