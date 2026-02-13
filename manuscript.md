@@ -10,7 +10,7 @@ keywords:
 - governance
 - data protection
 lang: en-US
-date-meta: '2026-02-12'
+date-meta: '2026-02-13'
 author-meta:
 - Sebastian Lobentanzer
 header-includes: |
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
-  <meta name="dc.date" content="2026-02-12" />
-  <meta name="citation_publication_date" content="2026-02-12" />
-  <meta property="article:published_time" content="2026-02-12" />
-  <meta name="dc.modified" content="2026-02-12T20:42:45+00:00" />
-  <meta property="article:modified_time" content="2026-02-12T20:42:45+00:00" />
+  <meta name="dc.date" content="2026-02-13" />
+  <meta name="citation_publication_date" content="2026-02-13" />
+  <meta property="article:published_time" content="2026-02-13" />
+  <meta name="dc.modified" content="2026-02-13T17:58:01+00:00" />
+  <meta property="article:modified_time" content="2026-02-13T17:58:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,6 +38,7 @@ header-includes: |
   <meta name="citation_author" content="Sebastian Lobentanzer" />
   <meta name="citation_author_institution" content="Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany" />
   <meta name="citation_author_institution" content="German Center for Diabetes Research, Munich, Germany" />
+  <meta name="citation_author_institution" content="Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom" />
   <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3399-6695" />
   <link rel="canonical" href="https://slolab.github.io/aac-manuscript/" />
   <meta property="og:url" content="https://slolab.github.io/aac-manuscript/" />
@@ -45,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/794e2be406a848de7ad663a8accfd41aeda4175f/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/794e2be406a848de7ad663a8accfd41aeda4175f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/794e2be406a848de7ad663a8accfd41aeda4175f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +70,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/794e2be406a848de7ad663a8accfd41aeda4175f/))
+([permalink](https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/))
 was automatically generated
-from [slolab/aac-manuscript@794e2be](https://github.com/slolab/aac-manuscript/tree/794e2be406a848de7ad663a8accfd41aeda4175f)
-on February 12, 2026.
+from [slolab/aac-manuscript@0f704ea](https://github.com/slolab/aac-manuscript/tree/0f704ead4644b8d38856d19b6c2f36722d4174bb)
+on February 13, 2026.
 </em></small>
 
 
@@ -89,7 +90,7 @@ on February 12, 2026.
     [slobentanzer](https://github.com/slobentanzer)
     <br>
   <small>
-     Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany; German Center for Diabetes Research, Munich, Germany
+     Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany; German Center for Diabetes Research, Munich, Germany; Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom
   </small>
 
 
@@ -119,28 +120,29 @@ Inspired by the Business Model Canvas [@isbn:9780470876411], which provides a si
 
 The central innovation is the formalization of a bidirectional *contract* between users and developers.
 User expectations are captured as structured requirements with quantified benefit metrics across five dimensions: time savings, quality improvement, risk reduction, enablement of new capabilities, and cost efficiency.
-Developer feasibility assessments evaluate the technical reality of delivering these benefits, including technology readiness levels, model selection, and implementation architecture.
-The canvas is primarily designed as a communication tool; ideally, user and developer are filling it out together.
-By requiring both perspectives, the AAC surfaces misalignments early---before significant resources are committed (Figure @fig:canvas b).
+Developer feasibility assessments evaluate the technical reality of delivering these benefits, including technology readiness levels, model selection, and implementation architecture (Figure @fig:canvas b).
+The canvas is primarily designed as a communication tool; ideally, user and developer are filling it out together (Figure @fig:canvas c).
+By requiring both perspectives, the AAC surfaces misalignments early---before significant resources are committed.
 
-![**The Agentic Automation Canvas.** **a)** Overview of the six canvas dimensions. Single projects are captured in FAIR, versioned, and shareable RO-crates. By being fully client-side, the application is private by design. **b)** The canvas is a communication tool to be used between users and developers of a project, balancing expected gains against technical feasibility considerations.](images/aac-f1.png){#fig:canvas width="100%"}
+![**The Agentic Automation Canvas.** **a)** Overview of the six canvas dimensions. Single projects are captured in FAIR, versioned, and shareable RO-crates. By being fully client-side, the application is private by design. **b)** The canvas is a communication tool to be used between users and developers of a project, balancing expected gains against technical feasibility considerations. **c)** The communication process between users and developers reflects the dimensions of the canvas and the timeline of project development. The canvas helps structure this conversation. **d)** Synchronising the versioning of the canvas RO-Crate as a living document and the implementation codebase as the real-world instance of the plan facilitates project management and reporting.](images/aac-f1.png){#fig:canvas width="100%"}
 
-The AAC is implemented as a fully semantic web-compatible metadata schema, made accessible by an interactive web application that guides users through structured data capture with real-time validation (https://aac.slolab.ai).
+The AAC is implemented as a fully semantic web-compatible metadata schema, made accessible by an interactive web application that guides users through structured data capture with real-time validation ([https://aac.slolab.ai](https://aac.slolab.ai)).
 Crucially, the application runs entirely in the browser---there is no server-side processing, and canvas data never leaves the user's machine.
 While agentic automation canvases for clinical workflows, proprietary pipelines, or sensitive research programs may contain information that cannot be shared with external services, the machine-interoperable format facilitates transparent public sharing and aggregation, if desired.
 
-Canvases can be exported at any time as Research Object Crate (RO-Crate) packages [@doi:10.3233/DS-210053], self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies including Schema.org [@doi:10.1145/2857274.2857276], W3C DCAT, PROV-O, P-Plan, FRAPO, and the Data Use Ontology [@doi:10.1016/j.xgen.2021.100028] (see Online Methods for details).
+Canvases can be exported at any time as Research Object Crate (RO-Crate) packages [@doi:10.3233/DS-210053], self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies such as Schema.org [@doi:10.1145/2857274.2857276] and W3C DCAT [@doi:10.48550/arXiv.2303.08883] (see Online Methods for details).
 The resulting packages are FAIR compliant [@doi:10.1038/sdata.2016.18] but under the user's full control: they can remain strictly internal, be shared selectively with collaborators or governance boards, or be published openly in research data repositories.
 For iteration, canvases can simply be re-uploaded to the interactive web form.
-Canvases carry semantic version numbers, allowing teams to track how a project's design evolves over time---from an initial planning canvas through prototype adjustments to a deployment specification---and to synchronize the living document with actual implementation milestones.
-The schema profile is defined independently of the web application (https://w3id.org/aac), enabling development of command-line tools, API integrations, and programmatic workflows.
+Canvases carry semantic version numbers, allowing teams to track how a project's design evolves over time and to synchronize the living document with actual implementation milestones (Figure @fig:canvas d).
+The schema profile is defined independently of the web application ([https://w3id.org/aac](https://w3id.org/aac)), enabling development of command-line tools, API integrations, and programmatic workflows.
 The additional classes we define in the AAC schema offer a structured vocabulary for the rapidly evolving landscape of agentic AI implementation patterns, complementary to the existing semantic web base vocabulary.
 
-We are applying the AAC to numerous projects, spanning single-cell bioinformatics, clinical research assistants, drug target databases, patient-facing chatbots, research data management, and institutional AI coordination.
+We are applying the AAC to numerous projects spanning single-cell bioinformatics, clinical research assistants, drug target databases, patient-facing chatbots, research data management, and institutional AI coordination.
 Use cases range from individual project design through portfolio management to research infrastructure specification.
-An example is our project to make the Open Targets drug discovery platform more accessible through agentic natural language interfaces.
-The canvas captures user expectations---bench scientists want to query drug-target associations conversationally rather than through complex database interfaces, with expected benefit quantified as time-to-insight reduction and accessibility for non-computational researchers.
-Developer feasibility assesses that retrieval-augmented generation over the Open Targets knowledge graph is technically viable but carries medium-high risk, particularly for queries spanning proprietary partner data (restricted access) and public evidence (open).
+For explanation, we give an example of making the Open Targets drug discovery platform more accessible through agentic natural language interfaces (see also the RO-Crate in Supplementary File SF1).
+The users are drug discovery experts with biological background who want to query drug-target associations conversationally rather than through complex database interfaces.
+Expected benefits are quantified as time-to-insight reduction and accessibility for non-computational researchers.
+Developer feasibility assesses that retrieval-augmented generation using a custom MCP server over the Open Targets knowledge graph is technically viable but carries medium-high risk, particularly for queries spanning proprietary partner data (restricted access) and public evidence (open).
 Governance staging defines validation by the platform team during prototyping, with staged rollout from internal testing to public deployment.
 Outcome metrics link back to the initial benefit estimates, enabling direct comparison of expected versus actual gains.
 Without the canvas, these considerations would live in scattered documents and slide decks---if captured at all.
@@ -160,7 +162,7 @@ We implement our diverse use cases as prospective case studies with explicit pre
 However, outside of projects with our direct involvement, a significant limitation of the decentralised private-by-design RO-Crates as the only output of the canvas is the need for additional mechanisms for sharing and finding them.
 In the future, we aim to integrate the resulting metadata repository more closely with agentic tooling such as our MCP server registry [@doi:10.1038/s41587-025-02900-9], the registry for our knowledge graph framework components [@doi:10.1038/s41587-023-01848-y], and community research software platforms [ref biotools], in order to allow the broad reuse and recomposition of open-source agentic workflows.
 
-The canvas is *not* meant as a contract to be *enforced;* rather, it is designed as a living document to facilitate the deliberate, transparent, and accountable conversation between users and developers from different backgrounds. For any given project, it is expected to change through the development process; thus, it is adaptable by design. We welcome contributors and use cases from the community, which we will continually support through open-source mechanisms.
+The canvas is *not* meant as a contract to be *enforced;* rather, it is designed as a living document to facilitate the deliberate, transparent, and accountable conversation between users and developers from different backgrounds. For any given project, the canvas is expected to change through the development process; thus, it is adaptable by design. We welcome contributors and use cases from the community, which we will continually support through open-source mechanisms.
 
 
 ## Online Methods {.page_break_before}
