@@ -1,8 +1,8 @@
 AAC
 AAC’s
-Agentic
+agentic
 auditable
-bioinformatics
+Bioinformatics
 biomedicine
 biotools
 chatbots

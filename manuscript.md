@@ -28,8 +28,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-13" />
   <meta name="citation_publication_date" content="2026-02-13" />
   <meta property="article:published_time" content="2026-02-13" />
-  <meta name="dc.modified" content="2026-02-13T18:02:31+00:00" />
-  <meta property="article:modified_time" content="2026-02-13T18:02:31+00:00" />
+  <meta name="dc.modified" content="2026-02-13T18:14:08+00:00" />
+  <meta property="article:modified_time" content="2026-02-13T18:14:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -48,9 +48,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/def5695513886dbcdd18376bb662ddf6b808624f/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/def5695513886dbcdd18376bb662ddf6b808624f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/def5695513886dbcdd18376bb662ddf6b808624f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/def5695513886dbcdd18376bb662ddf6b808624f/))
+([permalink](https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/))
 was automatically generated
-from [slolab/aac-manuscript@def5695](https://github.com/slolab/aac-manuscript/tree/def5695513886dbcdd18376bb662ddf6b808624f)
+from [slolab/aac-manuscript@efe1df0](https://github.com/slolab/aac-manuscript/tree/efe1df0615f8f2a7f07161c0e5bed0b64d888de7)
 on February 13, 2026.
 </em></small>
 
@@ -115,7 +115,7 @@ Sebastian Lobentanzer \<sebastian.lobentanzer@helmholtz-munich.de\>.
 Agentic AI systems---autonomous software agents that can plan, reason, and execute multi-step tasks with minimal human oversight---are rapidly emerging across biomedicine and biotechnology [@doi:10.48550/arXiv.2210.03629; @doi:10.1038/s41586-023-06792-0; @doi:10.1038/s41591-023-02448-8].
 <!-- UPDATE REFS -->
 From automated literature curation and clinical data extraction to autonomous laboratory experimentation, these systems promise transformative gains in efficiency, quality, and scalability.
-Yet they also introduce a fundamental shift in how work is organized: unlike traditional software tools where humans maintain direct control, agentic systems require *delegation of authority*---the system assumes command of tasks while humans step back from moment-to-moment decision-making.
+Yet they also introduce a fundamental shift in how work is organized: unlike traditional software tools where humans maintain direct control, agentic systems require an inversion of the operational control loop---the system assumes command of tasks while humans step back from moment-to-moment decision-making.
 This shift necessitates new forms of negotiation between stakeholders, explicit governance structures, and documentation practices that go well beyond what conventional software development processes provide.
 In the current landscape, there is no established planning process for agentic systems; they are conceived *ad hoc*, and they are evaluated *ad hoc*.
 Often, the balance between user expectations and technical feasibility is not clear, and the record of project details and governance is neither standardised nor machine-readable.

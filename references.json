@@ -1239,13 +1239,14 @@
   {
     "id": "WvC62IZf",
     "type": "book",
-    "event-place": "New York",
+    "abstract": "Offers tools and techniques to systematically understand, design, and implement new business models and renovate and rework old models",
+    "call-number": "HD30.28 .O778 2010",
+    "event-place": "Hoboken, NJ",
     "ISBN": "9780470876411",
-    "language": "eng",
     "number-of-pages": "278",
-    "publisher": "Wiley&Sons",
-    "publisher-place": "New York",
-    "source": "K10plus ISBN",
+    "publisher": "Wiley",
+    "publisher-place": "Hoboken, NJ",
+    "source": "Library of Congress ISBN",
     "title": "Business model generation: a handbook for visionaries, game changers, and challengers",
     "title-short": "Business model generation",
     "author": [
@@ -1256,12 +1257,16 @@
       {
         "family": "Pigneur",
         "given": "Yves"
+      },
+      {
+        "family": "Clark",
+        "given": "Tim"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          "2013"
+          "2010"
         ]
       ]
     },
