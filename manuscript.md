@@ -13,6 +13,7 @@ lang: en-US
 date-meta: '2026-02-13'
 author-meta:
 - Sebastian Lobentanzer
+- The AAC Consortium
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -27,8 +28,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-13" />
   <meta name="citation_publication_date" content="2026-02-13" />
   <meta property="article:published_time" content="2026-02-13" />
-  <meta name="dc.modified" content="2026-02-13T17:58:01+00:00" />
-  <meta property="article:modified_time" content="2026-02-13T17:58:01+00:00" />
+  <meta name="dc.modified" content="2026-02-13T17:59:57+00:00" />
+  <meta property="article:modified_time" content="2026-02-13T17:59:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,15 +41,16 @@ header-includes: |
   <meta name="citation_author_institution" content="German Center for Diabetes Research, Munich, Germany" />
   <meta name="citation_author_institution" content="Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom" />
   <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3399-6695" />
+  <meta name="citation_author" content="The AAC Consortium" />
   <link rel="canonical" href="https://slolab.github.io/aac-manuscript/" />
   <meta property="og:url" content="https://slolab.github.io/aac-manuscript/" />
   <meta property="twitter:url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/9dcc6554fd00cd2f898afb2b727114a7c3192a9b/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/9dcc6554fd00cd2f898afb2b727114a7c3192a9b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/9dcc6554fd00cd2f898afb2b727114a7c3192a9b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +72,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/))
+([permalink](https://slolab.github.io/aac-manuscript/v/9dcc6554fd00cd2f898afb2b727114a7c3192a9b/))
 was automatically generated
-from [slolab/aac-manuscript@0f704ea](https://github.com/slolab/aac-manuscript/tree/0f704ead4644b8d38856d19b6c2f36722d4174bb)
+from [slolab/aac-manuscript@9dcc655](https://github.com/slolab/aac-manuscript/tree/9dcc6554fd00cd2f898afb2b727114a7c3192a9b)
 on February 13, 2026.
 </em></small>
 
@@ -91,6 +93,11 @@ on February 13, 2026.
     <br>
   <small>
      Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany; German Center for Diabetes Research, Munich, Germany; Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom
+  </small>
+
++ **The AAC Consortium**
+  <br>
+  <small>
   </small>
 
 

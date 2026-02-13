@@ -1,6 +1,6 @@
 AAC
 AAC’s
-agentic
+Agentic
 auditable
 bioinformatics
 biomedicine
