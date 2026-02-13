@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/slolab/aac-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://slolab.github.io/aac-manuscript/>.
-The permalink for this webpage version is <https://slolab.github.io/aac-manuscript/v/794e2be406a848de7ad663a8accfd41aeda4175f/>.
+The permalink for this webpage version is <https://slolab.github.io/aac-manuscript/v/0f704ead4644b8d38856d19b6c2f36722d4174bb/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://slolab.github.io/aac-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`794e2be406a848de7ad663a8accfd41aeda4175f`](https://github.com/slolab/aac-manuscript/commit/794e2be406a848de7ad663a8accfd41aeda4175f).
+[`0f704ead4644b8d38856d19b6c2f36722d4174bb`](https://github.com/slolab/aac-manuscript/commit/0f704ead4644b8d38856d19b6c2f36722d4174bb).
