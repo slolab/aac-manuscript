@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-14" />
   <meta name="citation_publication_date" content="2026-02-14" />
   <meta property="article:published_time" content="2026-02-14" />
-  <meta name="dc.modified" content="2026-02-14T02:22:03+00:00" />
-  <meta property="article:modified_time" content="2026-02-14T02:22:03+00:00" />
+  <meta name="dc.modified" content="2026-02-14T02:30:22+00:00" />
+  <meta property="article:modified_time" content="2026-02-14T02:30:22+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/))
+([permalink](https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/))
 was automatically generated
-from [slolab/aac-manuscript@78d0195](https://github.com/slolab/aac-manuscript/tree/78d0195bf93356d4c2f182214cb0859d76498af6)
+from [slolab/aac-manuscript@459c75d](https://github.com/slolab/aac-manuscript/tree/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24)
 on February 14, 2026.
 </em></small>
 
@@ -113,7 +113,7 @@ The framework is implemented as a semantic web-compatible metadata schema with c
 It is made accessible through a privacy-preserving, fully client-side web application with real-time validation.
 Completed canvases export as FAIR-compliant RO-Crates, yielding versioned, shareable, and machine-interoperable project contracts between users and developers.
 We describe the schema design, benefit quantification model, and prospective application to diverse use cases from research, clinical, and institutional settings.
-The AAC and its web application are available as open-source code and interactive web form at https://aac.slolab.ai.
+The AAC and its web application are available as open-source code and interactive web form at [https://aac.slolab.ai](https://aac.slolab.ai).
 
 ## Main {.page_break_before}
 
@@ -160,6 +160,7 @@ Without the canvas, these considerations would live in scattered documents and s
 This combination of prospective design, quantified contracts, and FAIR-compliant outputs distinguishes the AAC from existing approaches to AI documentation and governance.
 Model Cards [@doi:10.1145/3287560.3287596] and Datasheets [@doi:10.1145/3458723] are valuable but retrospective, documenting artifacts after creation.
 The AAC is prospective: it guides design decisions before and during development, when they can still influence outcomes.
+The Machine Learning Canvas [@mlc] adapts the canvas format to ML project design but focuses on product-market fit rather than governance, benefit quantification, or machine-readable specifications.
 AI governance frameworks such as the NIST AI RMF [@doi:10.6028/NIST.AI.100-1] provide compliance checklists but not machine-readable specifications that integrate with data management infrastructure.
 The AAC's governance staging goes beyond static risk assessment by defining decision authority at each development phase, establishing milestones, specifying compliance standards, and creating an auditable governance trail that persists as a digital object.
 

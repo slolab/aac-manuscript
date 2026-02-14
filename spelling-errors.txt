@@ -1,8 +1,8 @@
 AAC
 AAC’s
-agentic
+Agentic
 auditable
-bioinformatics
+Bioinformatics
 chatbots
 codebase
 curation
