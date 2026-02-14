@@ -18,5 +18,24 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "id": "mlc",
+  "type": "webpage",
+  "URL": "https://www.ownml.co/",
+  "title": "Machine Learning Canvas",
+  "issued": {
+    "date-parts": [
+      [
+        2015
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Louis",
+      "family": "Dorard"
+    }
+  ]
 }
 ]
