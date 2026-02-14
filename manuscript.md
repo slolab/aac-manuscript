@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-14" />
   <meta name="citation_publication_date" content="2026-02-14" />
   <meta property="article:published_time" content="2026-02-14" />
-  <meta name="dc.modified" content="2026-02-14T02:09:20+00:00" />
-  <meta property="article:modified_time" content="2026-02-14T02:09:20+00:00" />
+  <meta name="dc.modified" content="2026-02-14T02:22:03+00:00" />
+  <meta property="article:modified_time" content="2026-02-14T02:22:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/))
+([permalink](https://slolab.github.io/aac-manuscript/v/78d0195bf93356d4c2f182214cb0859d76498af6/))
 was automatically generated
-from [slolab/aac-manuscript@df7afb4](https://github.com/slolab/aac-manuscript/tree/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291)
+from [slolab/aac-manuscript@78d0195](https://github.com/slolab/aac-manuscript/tree/78d0195bf93356d4c2f182214cb0859d76498af6)
 on February 14, 2026.
 </em></small>
 
@@ -105,16 +105,15 @@ Sebastian Lobentanzer \<sebastian.lobentanzer@helmholtz-munich.de\>.
 
 ## Abstract
 
-Agentic AI holds great promise and equally great challenges for its application to the research ecosystem.
-Prototypes are being deployed across domains with increasing speed, yet no methodology for their structured design, governance, and prospective evaluation has been established.
-Existing AI documentation practices and guidelines are either static and retrospective or non-machine-readable guidelines.
+Agentic AI prototypes are being deployed across domains with increasing speed, yet no methodology for their structured design, governance, and prospective evaluation has been established.
+Existing AI documentation practices and guidelines – Model Cards, Datasheets, or NIST AI RMF – are either retrospective or lack machine-readability and interoperability.
 We present the Agentic Automation Canvas (AAC), a structured framework for the prospective design of agentic systems and a tool to facilitate communication between their users and developers.
-The AAC captures six dimensions of an automation project: definition and scope; user expectations with quantified benefit metrics; developer feasibility assesments; governance staging; data access and sensitivity; and outcomes.
+The AAC captures six dimensions of an automation project: definition and scope; user expectations with quantified benefit metrics; developer feasibility assessments; governance staging; data access and sensitivity; and outcomes.
 The framework is implemented as a semantic web-compatible metadata schema with controlled vocabulary and mappings to established ontologies such as Schema.org and W3C DCAT.
-It is made accesible through a privacy-preserving web application with real-time validation.
-Completed canvases export as FAIR-compliant RO-Crates, yielding versioned, shareable, and machine-interoperable design documents.
+It is made accessible through a privacy-preserving, fully client-side web application with real-time validation.
+Completed canvases export as FAIR-compliant RO-Crates, yielding versioned, shareable, and machine-interoperable project contracts between users and developers.
 We describe the schema design, benefit quantification model, and prospective application to diverse use cases from research, clinical, and institutional settings.
-The AAC an its web application are available as open-source code and interactive web form at https://aac.slolab.ai.
+The AAC and its web application are available as open-source code and interactive web form at https://aac.slolab.ai.
 
 ## Main {.page_break_before}
 
