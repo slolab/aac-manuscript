@@ -1,10 +1,10 @@
 AAC
 AAC’s
+accesible
 agentic
+assesments
 auditable
 Bioinformatics
-biomedicine
-biotools
 chatbots
 codebase
 curation

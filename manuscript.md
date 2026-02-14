@@ -10,10 +10,9 @@ keywords:
 - governance
 - data protection
 lang: en-US
-date-meta: '2026-02-13'
+date-meta: '2026-02-14'
 author-meta:
 - Sebastian Lobentanzer
-- The AAC Consortium
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -25,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
-  <meta name="dc.date" content="2026-02-13" />
-  <meta name="citation_publication_date" content="2026-02-13" />
-  <meta property="article:published_time" content="2026-02-13" />
-  <meta name="dc.modified" content="2026-02-13T18:14:08+00:00" />
-  <meta property="article:modified_time" content="2026-02-13T18:14:08+00:00" />
+  <meta name="dc.date" content="2026-02-14" />
+  <meta name="citation_publication_date" content="2026-02-14" />
+  <meta property="article:published_time" content="2026-02-14" />
+  <meta name="dc.modified" content="2026-02-14T02:09:20+00:00" />
+  <meta property="article:modified_time" content="2026-02-14T02:09:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,16 +40,15 @@ header-includes: |
   <meta name="citation_author_institution" content="German Center for Diabetes Research, Munich, Germany" />
   <meta name="citation_author_institution" content="Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom" />
   <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3399-6695" />
-  <meta name="citation_author" content="The AAC Consortium" />
   <link rel="canonical" href="https://slolab.github.io/aac-manuscript/" />
   <meta property="og:url" content="https://slolab.github.io/aac-manuscript/" />
   <meta property="twitter:url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -72,10 +70,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/efe1df0615f8f2a7f07161c0e5bed0b64d888de7/))
+([permalink](https://slolab.github.io/aac-manuscript/v/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291/))
 was automatically generated
-from [slolab/aac-manuscript@efe1df0](https://github.com/slolab/aac-manuscript/tree/efe1df0615f8f2a7f07161c0e5bed0b64d888de7)
-on February 13, 2026.
+from [slolab/aac-manuscript@df7afb4](https://github.com/slolab/aac-manuscript/tree/df7afb4775a8d530e2f93e0ad9f4e0a86d0c3291)
+on February 14, 2026.
 </em></small>
 
 
@@ -95,11 +93,6 @@ on February 13, 2026.
      Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany; German Center for Diabetes Research, Munich, Germany; Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom
   </small>
 
-+ **The AAC Consortium**
-  <br>
-  <small>
-  </small>
-
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/slolab/aac-manuscript/issues)
@@ -110,17 +103,28 @@ Sebastian Lobentanzer \<sebastian.lobentanzer@helmholtz-munich.de\>.
 :::
 
 
+## Abstract
+
+Agentic AI holds great promise and equally great challenges for its application to the research ecosystem.
+Prototypes are being deployed across domains with increasing speed, yet no methodology for their structured design, governance, and prospective evaluation has been established.
+Existing AI documentation practices and guidelines are either static and retrospective or non-machine-readable guidelines.
+We present the Agentic Automation Canvas (AAC), a structured framework for the prospective design of agentic systems and a tool to facilitate communication between their users and developers.
+The AAC captures six dimensions of an automation project: definition and scope; user expectations with quantified benefit metrics; developer feasibility assesments; governance staging; data access and sensitivity; and outcomes.
+The framework is implemented as a semantic web-compatible metadata schema with controlled vocabulary and mappings to established ontologies such as Schema.org and W3C DCAT.
+It is made accesible through a privacy-preserving web application with real-time validation.
+Completed canvases export as FAIR-compliant RO-Crates, yielding versioned, shareable, and machine-interoperable design documents.
+We describe the schema design, benefit quantification model, and prospective application to diverse use cases from research, clinical, and institutional settings.
+The AAC an its web application are available as open-source code and interactive web form at https://aac.slolab.ai.
+
 ## Main {.page_break_before}
 
-Agentic AI systems---autonomous software agents that can plan, reason, and execute multi-step tasks with minimal human oversight---are rapidly emerging across biomedicine and biotechnology [@doi:10.48550/arXiv.2210.03629; @doi:10.1038/s41586-023-06792-0; @doi:10.1038/s41591-023-02448-8].
-<!-- UPDATE REFS -->
+Agentic AI systems—autonomous software agents that can plan, reason, and execute multi-step tasks with minimal human oversight—are rapidly emerging across all fields of science [@doi:10.1109/ACCESS.2025.3532853;@doi:10.1038/s41587-025-02963-8].
 From automated literature curation and clinical data extraction to autonomous laboratory experimentation, these systems promise transformative gains in efficiency, quality, and scalability.
-Yet they also introduce a fundamental shift in how work is organized: unlike traditional software tools where humans maintain direct control, agentic systems require an inversion of the operational control loop---the system assumes command of tasks while humans step back from moment-to-moment decision-making.
+Yet they also introduce a fundamental shift in how work is organized: unlike traditional software tools, agentic systems require an inversion of the operational control loop; the system assumes command of tasks while humans step back from moment-to-moment decision-making [@doi:10.1109/ACCESS.2025.3532853;@doi:10.1038/s41587-025-02963-8].
 This shift necessitates new forms of negotiation between stakeholders, explicit governance structures, and documentation practices that go well beyond what conventional software development processes provide.
 In the current landscape, there is no established planning process for agentic systems; they are conceived *ad hoc*, and they are evaluated *ad hoc*.
 Often, the balance between user expectations and technical feasibility is not clear, and the record of project details and governance is neither standardised nor machine-readable.
-This can lead to the surprising finding that these systems are much less effective in practice than expected.
-<!-- TODO REF AI scribes in hospital -->
+This can lead to the surprising finding that these systems are much less effective in practice than expected [@arxiv:2507.09089;@pmc:PMC12768499].
 
 We present the Agentic Automation Canvas (AAC), a structured framework for designing, governing, and documenting agentic automation projects.
 Inspired by the Business Model Canvas [@isbn:9780470876411], which provides a single-page structured overview of a business model's key components, the AAC captures six interconnected dimensions of an agentic automation project: project definition, user expectations, developer feasibility, governance staging, data access and sensitivity, and outcomes (Figure @fig:canvas a).
@@ -137,7 +141,7 @@ The AAC is implemented as a fully semantic web-compatible metadata schema, made 
 Crucially, the application runs entirely in the browser---there is no server-side processing, and canvas data never leaves the user's machine.
 While agentic automation canvases for clinical workflows, proprietary pipelines, or sensitive research programs may contain information that cannot be shared with external services, the machine-interoperable format facilitates transparent public sharing and aggregation, if desired.
 
-Canvases can be exported at any time as Research Object Crate (RO-Crate) packages [@doi:10.3233/DS-210053], self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies such as Schema.org [@doi:10.1145/2857274.2857276] and W3C DCAT [@doi:10.48550/arXiv.2303.08883] (see Online Methods for details).
+Canvases can be exported at any time as Research Object Crate (RO-Crate) packages [@doi:10.3233/DS-210053], self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies such as Schema.org [@doi:10.1145/2857274.2857276] and W3C DCAT [@doi:10.48550/arXiv.2303.08883] (see Methods for details).
 The resulting packages are FAIR compliant [@doi:10.1038/sdata.2016.18] but under the user's full control: they can remain strictly internal, be shared selectively with collaborators or governance boards, or be published openly in research data repositories.
 For iteration, canvases can simply be re-uploaded to the interactive web form.
 Canvases carry semantic version numbers, allowing teams to track how a project's design evolves over time and to synchronize the living document with actual implementation milestones (Figure @fig:canvas d).
@@ -167,12 +171,12 @@ The RO-Crate output format ensures that these specifications persist as reusable
 
 We implement our diverse use cases as prospective case studies with explicit pre-registration of expectations, the analysis of which will allow quantitative insights into the automation of complex processes in the research landscape.
 However, outside of projects with our direct involvement, a significant limitation of the decentralised private-by-design RO-Crates as the only output of the canvas is the need for additional mechanisms for sharing and finding them.
-In the future, we aim to integrate the resulting metadata repository more closely with agentic tooling such as our MCP server registry [@doi:10.1038/s41587-025-02900-9], the registry for our knowledge graph framework components [@doi:10.1038/s41587-023-01848-y], and community research software platforms [ref biotools], in order to allow the broad reuse and recomposition of open-source agentic workflows.
+In the future, we aim to integrate the resulting metadata repository more closely with agentic tooling such as our MCP server registry [@doi:10.1038/s41587-025-02900-9], the registry for our knowledge graph framework components [@doi:10.1038/s41587-023-01848-y], and community research software platforms [@doi:10.1186/s13059-019-1772-6], in order to allow the broad reuse and recomposition of open-source agentic workflows.
 
 The canvas is *not* meant as a contract to be *enforced;* rather, it is designed as a living document to facilitate the deliberate, transparent, and accountable conversation between users and developers from different backgrounds. For any given project, the canvas is expected to change through the development process; thus, it is adaptable by design. We welcome contributors and use cases from the community, which we will continually support through open-source mechanisms.
 
 
-## Online Methods {.page_break_before}
+## Methods {.page_break_before}
 
 ### Canvas Data Model
 
@@ -208,14 +212,14 @@ Each AAC export produces a ZIP archive containing an `ro-crate-metadata.json` fi
 **Schema.org** [@doi:10.1145/2857274.2857276]: Project metadata is structured using Schema.org types including `Project`, `ResearchProject`, and `CreativeWork`, enabling discovery through web search engines and metadata catalogs.
 Persons are typed as `schema:Person` with `schema:name`, `schema:affiliation`, and `schema:identifier` (ORCID) properties.
 
-**W3C DCAT**: Dataset metadata follows the Data Catalog Vocabulary, with each dataset represented as `dcat:Dataset` including `dcat:distribution`, `dcat:accessRights`, and `dcat:contactPoint` properties, enabling integration with data catalogs.
+**W3C DCAT** [@doi:10.48550/arXiv.2303.08883]: Dataset metadata follows the Data Catalog Vocabulary, with each dataset represented as `dcat:Dataset` including `dcat:distribution`, `dcat:accessRights`, and `dcat:contactPoint` properties, enabling integration with data catalogs.
 
-**W3C PROV-O**: Governance activities and their relationships are captured using the Provenance Ontology.
+**W3C PROV-O** [@doi:10.48550/arXiv.2408.03866]: Governance activities and their relationships are captured using the Provenance Ontology.
 Governance stages are modeled as `prov:Activity` instances with `prov:wasAssociatedWith` linking to agents and `prov:generated` linking to milestones.
 
-**P-Plan**: User expectations and requirements are structured using the Plan Ontology, with each requirement represented as a `p-plan:Step` within a `p-plan:Plan`, and dependencies modeled as `p-plan:isPreceededBy` relationships.
+**P-Plan** [@doi:10.48550/arXiv.2408.03866]: User expectations and requirements are structured using the Plan Ontology, with each requirement represented as a `p-plan:Step` within a `p-plan:Plan`, and dependencies modeled as `p-plan:isPreceededBy` relationships.
 
-**FRAPO**: Funding and project administration information follows the Funding, Research Administration & Projects Ontology, enabling integration with research administration systems through `frapo:Grant` and `frapo:FundingAgency` entities.
+**FRAPO** [@doi:10.1371/journal.pcbi.1000361]: Funding and project administration information follows the Funding, Research Administration & Projects Ontology, enabling integration with research administration systems through `frapo:Grant` and `frapo:FundingAgency` entities.
 
 **DUO** [@doi:10.1016/j.xgen.2021.100028]: Data use restrictions are specified using controlled terms from the Data Use Ontology, enabling automated compliance checking.
 Terms such as DUO:0000006 (health or medical or biomedical research) and DUO:0000007 (disease-specific research) provide machine-readable access conditions.
@@ -241,7 +245,7 @@ Complex data structures (requirements, stakeholders, governance stages, datasets
 
 The RO-Crate generation pipeline validates canvas data against the JSON Schema specification, transforms it into RO-Crate-compliant JSON-LD using the ontology mappings, generates an HTML preview, and packages all files into a ZIP archive.
 Users can import existing canvas JSON files for iterative editing and template reuse.
-The application is deployed as a static site, requiring no server-side infrastructure, and is accessible at https://slolab.github.io/agentic-automation-canvas/.
+The application is deployed as a static site, requiring no server-side infrastructure, and is accessible at [https://aac.slolab.ai](https://aac.slolab.ai).
 
 
 
