@@ -10,7 +10,7 @@ keywords:
 - governance
 - data protection
 lang: en-US
-date-meta: '2026-02-14'
+date-meta: '2026-02-15'
 author-meta:
 - Sebastian Lobentanzer
 header-includes: |
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
-  <meta name="dc.date" content="2026-02-14" />
-  <meta name="citation_publication_date" content="2026-02-14" />
-  <meta property="article:published_time" content="2026-02-14" />
-  <meta name="dc.modified" content="2026-02-14T02:30:22+00:00" />
-  <meta property="article:modified_time" content="2026-02-14T02:30:22+00:00" />
+  <meta name="dc.date" content="2026-02-15" />
+  <meta name="citation_publication_date" content="2026-02-15" />
+  <meta property="article:published_time" content="2026-02-15" />
+  <meta name="dc.modified" content="2026-02-15T13:55:54+00:00" />
+  <meta property="article:modified_time" content="2026-02-15T13:55:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +70,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24/))
+([permalink](https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/))
 was automatically generated
-from [slolab/aac-manuscript@459c75d](https://github.com/slolab/aac-manuscript/tree/459c75dd58cb44d66d0b0b8c7335b8b8d2142e24)
-on February 14, 2026.
+from [slolab/aac-manuscript@8b4efa0](https://github.com/slolab/aac-manuscript/tree/8b4efa0ae437b0509ca63293047352e7366bb3d1)
+on February 15, 2026.
 </em></small>
 
 
@@ -204,9 +204,9 @@ Benefits aggregate at the project level through volume-weighted calculations, pr
 
 ### Standards Compliance
 
-The AAC generates RO-Crate 1.1 packages that adhere to the following standards and ontologies:
+The AAC generates RO-Crate 1.2 packages that adhere to the following standards and ontologies:
 
-**RO-Crate 1.1** [@doi:10.3233/DS-210053]: The Research Object Crate specification provides a standardized packaging format for research outputs with their metadata.
+**RO-Crate 1.2** [@doi:10.3233/DS-210053]: The Research Object Crate specification provides a standardized packaging format for research outputs with their metadata.
 Each AAC export produces a ZIP archive containing an `ro-crate-metadata.json` file (JSON-LD), a human-readable preview (`ro-crate-preview.html`), the original canvas data (`canvas.json`), and documentation files.
 
 **Schema.org** [@doi:10.1145/2857274.2857276]: Project metadata is structured using Schema.org types including `Project`, `ResearchProject`, and `CreativeWork`, enabling discovery through web search engines and metadata catalogs.
