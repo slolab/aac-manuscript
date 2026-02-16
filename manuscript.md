@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-16" />
   <meta name="citation_publication_date" content="2026-02-16" />
   <meta property="article:published_time" content="2026-02-16" />
-  <meta name="dc.modified" content="2026-02-16T15:47:50+00:00" />
-  <meta property="article:modified_time" content="2026-02-16T15:47:50+00:00" />
+  <meta name="dc.modified" content="2026-02-16T16:22:05+00:00" />
+  <meta property="article:modified_time" content="2026-02-16T16:22:05+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/))
+([permalink](https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/))
 was automatically generated
-from [slolab/aac-manuscript@59d6873](https://github.com/slolab/aac-manuscript/tree/59d687374929b1096036ed95aad3ec7f1623427c)
+from [slolab/aac-manuscript@43c287a](https://github.com/slolab/aac-manuscript/tree/43c287a7497a13249a0108c96206f93b2b93c51f)
 on February 16, 2026.
 </em></small>
 
@@ -134,7 +134,7 @@ Developer feasibility assessments evaluate the technical reality of delivering t
 The canvas is primarily designed as a communication tool; ideally, users and developers fill it out together (Figure @fig:canvas c).
 By requiring both perspectives, the AAC surfaces misalignments early---before significant resources are committed.
 
-![**The Agentic Automation Canvas.** **a)** Overview of the six canvas dimensions. Single projects are captured in FAIR, versioned, and shareable RO-crates. By being fully client-side, the application is private by design. **b)** The canvas is a communication tool to be used between users and developers of a project, balancing expected gains against technical feasibility considerations. **c)** The communication process between users and developers reflects the dimensions of the canvas and the timeline of project development. The canvas helps structure this conversation. **d)** Synchronising the versioning of the canvas RO-Crate as a living document and the implementation codebase as the real-world instance of the plan facilitates project management and reporting.](images/aac-f1.png){#fig:canvas width="100%"}
+![**The Agentic Automation Canvas.** **a)** Overview of the six canvas dimensions. Single projects are captured in FAIR, versioned, and shareable RO-crates. By being fully client-side, the application is private by design. **b)** The canvas is a communication tool to be used between users and developers of a project, balancing expected gains against technical feasibility considerations. **c)** The communication process between users and developers reflects the dimensions of the canvas and the timeline of project development. The canvas helps structure this conversation. **d)** Synchronising the versioning of the canvas RO-Crate as a living document and the implementation codebase as the real-world instance of the plan facilitates project management and reporting. The integrated AGENTS.md description can facilitate implementation using copilots or coding agents.](images/aac-f1.png){#fig:canvas width="100%"}
 
 The AAC is implemented as a fully semantic web-compatible metadata schema, made accessible by an interactive web application that guides users through structured data capture with real-time validation ([https://aac.slolab.ai](https://aac.slolab.ai)).
 Crucially, the application runs entirely in the browser---there is no server-side processing, and canvas data never leaves the user's machine.
