@@ -10,8 +10,15 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+Agentic AI prototypes are being deployed across domains with increasing speed, yet no methodology for their structured design, governance, and prospective evaluation has been established.
+Existing AI documentation practices and guidelines – Model Cards, Datasheets, or NIST AI RMF – are either retrospective or lack machine-readability and interoperability.
+We present the Agentic Automation Canvas (AAC), a structured framework for the prospective design of agentic systems and a tool to facilitate communication between their users and developers.
+The AAC captures six dimensions of an automation project: definition and scope; user expectations with quantified benefit metrics; developer feasibility assessments; governance staging; data access and sensitivity; and outcomes.
+The framework is implemented as a semantic web-compatible metadata schema with controlled vocabulary and mappings to established ontologies such as Schema.org and W3C DCAT.
+It is made accessible through a privacy-preserving, fully client-side web application with real-time validation.
+Completed canvases export as FAIR-compliant RO-Crates, yielding versioned, shareable, and machine-interoperable project contracts between users and developers.
+We describe the schema design, benefit quantification model, and prospective application to diverse use cases from research, clinical, and institutional settings.
+The AAC and its web application are available as open-source code and interactive web form at [https://aac.slolab.ai](https://aac.slolab.ai).
 
 ## Manubot
 
