@@ -1,4 +1,6 @@
-# Automated scholarly manuscripts on GitHub
+# The Agentic Automation Canvas: a structured framework for agentic AI project design
+
+Read by following the badge links:
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
