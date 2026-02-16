@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "The Agentic Automation Canvas: a structured framework for agentic AI project design"
+version: 1.1.0
+date-released: 2026-02-16
+type: manuscript
+message: "If you use this manuscript or the framework it describes, please cite it as below."
+authors:
+  - given-names: Sebastian
+    family-names: Lobentanzer
+    email: sebastian.lobentanzer@helmholtz-munich.de
+    orcid: "https://orcid.org/0000-0003-3399-6695"
+    affiliation: "Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany"
+keywords:
+  - agentic systems
+  - generative AI
+  - automation
+  - RO-Crate
+  - FAIR principles
+  - research infrastructure
+  - governance
+  - data protection
