@@ -10,7 +10,7 @@ keywords:
 - governance
 - data protection
 lang: en-US
-date-meta: '2026-02-15'
+date-meta: '2026-02-16'
 author-meta:
 - Sebastian Lobentanzer
 header-includes: |
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
-  <meta name="dc.date" content="2026-02-15" />
-  <meta name="citation_publication_date" content="2026-02-15" />
-  <meta property="article:published_time" content="2026-02-15" />
-  <meta name="dc.modified" content="2026-02-15T13:55:54+00:00" />
-  <meta property="article:modified_time" content="2026-02-15T13:55:54+00:00" />
+  <meta name="dc.date" content="2026-02-16" />
+  <meta name="citation_publication_date" content="2026-02-16" />
+  <meta property="article:published_time" content="2026-02-16" />
+  <meta name="dc.modified" content="2026-02-16T15:47:50+00:00" />
+  <meta property="article:modified_time" content="2026-02-16T15:47:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +70,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/8b4efa0ae437b0509ca63293047352e7366bb3d1/))
+([permalink](https://slolab.github.io/aac-manuscript/v/59d687374929b1096036ed95aad3ec7f1623427c/))
 was automatically generated
-from [slolab/aac-manuscript@8b4efa0](https://github.com/slolab/aac-manuscript/tree/8b4efa0ae437b0509ca63293047352e7366bb3d1)
-on February 15, 2026.
+from [slolab/aac-manuscript@59d6873](https://github.com/slolab/aac-manuscript/tree/59d687374929b1096036ed95aad3ec7f1623427c)
+on February 16, 2026.
 </em></small>
 
 
@@ -142,10 +142,11 @@ While agentic automation canvases for clinical workflows, proprietary pipelines,
 
 Canvases can be exported at any time as Research Object Crate (RO-Crate) packages [@doi:10.3233/DS-210053], self-contained digital objects that bundle the canvas specification with standards-compliant metadata following established ontologies such as Schema.org [@doi:10.1145/2857274.2857276] and W3C DCAT [@doi:10.48550/arXiv.2303.08883] (see Methods for details).
 The resulting packages are FAIR compliant [@doi:10.1038/sdata.2016.18] but under the user's full control: they can remain strictly internal, be shared selectively with collaborators or governance boards, or be published openly in research data repositories.
+They are also AI-ready: the RO-Crate export includes an AGENTS.md file that translates the design contract into instructions consumable by coding copilots and LLM-based development agents (Figure @fig:canvas d).
 For iteration, canvases can simply be re-uploaded to the interactive web form.
 Canvases carry semantic version numbers, allowing teams to track how a project's design evolves over time and to synchronize the living document with actual implementation milestones (Figure @fig:canvas d).
-The schema profile is defined independently of the web application ([https://w3id.org/aac](https://w3id.org/aac)), enabling development of command-line tools, API integrations, and programmatic workflows.
 The additional classes we define in the AAC schema offer a structured vocabulary for the rapidly evolving landscape of agentic AI implementation patterns, complementary to the existing semantic web base vocabulary.
+The schema profile is defined independently of the web application ([https://w3id.org/aac](https://w3id.org/aac)), enabling development of command-line tools, API integrations, and programmatic workflows.
 
 We are applying the AAC to numerous projects spanning single-cell bioinformatics, clinical research assistants, drug target databases, patient-facing chatbots, research data management, and institutional AI coordination.
 Use cases range from individual project design through portfolio management to research infrastructure specification.
@@ -226,7 +227,7 @@ Terms such as DUO:0000006 (health or medical or biomedical research) and DUO:000
 
 ### Schema Profile
 
-The AAC schema profile is maintained independently of the web application at https://w3id.org/aac/ and includes the following components:
+The AAC schema profile is maintained independently of the web application at [https://w3id.org/aac/](https://w3id.org/aac/) and includes the following components:
 
 **JSON Schema** (`canvas-schema.json`): A formal JSON Schema (Draft 07) specification that validates canvas data structure.
 The schema enforces required fields (project title, description, and stage), validates enumerated values (TRL levels, risk levels, DUO terms, benefit types, access rights), and ensures referential integrity between person identifiers and their references in stakeholder and agent roles.
@@ -239,7 +240,9 @@ The schema enforces required fields (project title, description, and stage), val
 
 ### Implementation
 
-The web application is built with Vue.js 3 and TypeScript, using Vite for build tooling and Tailwind CSS for styling.
+The web application is built with Vue.js 3 (v3.5.27), TypeScript (v5.9.3), Vite (v7.3.1), and Tailwind CSS (v3.4.19).
+The version of the schema and application at the time of this publication are 0.12.2.
+Dependencies are managed with **npm** for the front-end (Node.js) and **uv** for the documentation and tooling environment (Python); the exact resolved versions are recorded in the repository lockfiles ([package-lock.json](https://github.com/slolab/agentic-automation-canvas/blob/main/package-lock.json), [uv.lock](https://github.com/slolab/agentic-automation-canvas/blob/main/uv.lock)).
 The interface is organized into sections corresponding to the six canvas dimensions, with collapsible panels, contextual help tooltips, and form validation providing immediate feedback on data completeness and correctness.
 Complex data structures (requirements, stakeholders, governance stages, datasets) support add, edit, and delete operations with nested sub-forms.
 

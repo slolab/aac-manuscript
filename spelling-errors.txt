@@ -1,6 +1,6 @@
 AAC
 AAC’s
-agentic
+Agentic
 auditable
 bioinformatics
 chatbots
@@ -20,10 +20,13 @@ JSON
 KPIs
 LD
 lifecycle
+LLM
 Lobentanzer
+lockfiles
 MCP
 misalignments
 NIST
+npm
 ontologies
 pre
 recomposition
