@@ -4,8 +4,8 @@ Read by following the badge links:
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
+[![Preprint](https://img.shields.io/badge/preprint-arXiv-blue.svg)](https://arxiv.org/abs/2602.15090)
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://slolab.github.io/aac-manuscript/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://slolab.github.io/aac-manuscript/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/slolab/aac-manuscript/workflows/Manubot/badge.svg)](https://github.com/slolab/aac-manuscript/actions)
 
 ## Manuscript description
@@ -89,8 +89,8 @@ If your pull request build fails, see the CI logs for the cause of failure and r
 When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/slolab/aac-manuscript/tree/gh-pages) and [`output`](https://github.com/slolab/aac-manuscript/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
++ **Preprint (arXiv)** at https://arxiv.org/abs/2602.15090
 + **HTML manuscript** at https://slolab.github.io/aac-manuscript/
-+ **PDF manuscript** at https://slolab.github.io/aac-manuscript/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
