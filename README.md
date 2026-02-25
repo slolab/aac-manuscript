@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/slolab/aac-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://slolab.github.io/aac-manuscript/>.
-The permalink for this webpage version is <https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/>.
+The permalink for this webpage version is <https://slolab.github.io/aac-manuscript/v/989f9756b204994df72ad9ca5b02b6e116ff93b8/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://slolab.github.io/aac-manuscript/v/freeze/>.
 
 ## Files
@@ -9,7 +9,7 @@ To redirect to the permalink for the latest manuscript version at anytime, use t
 This directory contains the following files, which are mostly ignored on the `main` branch:
 
 + [`index.html`](index.html) is an HTML manuscript.
-+ [`manuscript.pdf`](manuscript.pdf) is a PDF manuscript.
++ The preprint is available on [arXiv](https://arxiv.org/abs/2602.15090).
 
 The `v` directory contains directories for each manuscript version.
 In general, a version is identified by the commit hash of the source content that created it.
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`43c287a7497a13249a0108c96206f93b2b93c51f`](https://github.com/slolab/aac-manuscript/commit/43c287a7497a13249a0108c96206f93b2b93c51f).
+[`989f9756b204994df72ad9ca5b02b6e116ff93b8`](https://github.com/slolab/aac-manuscript/commit/989f9756b204994df72ad9ca5b02b6e116ff93b8).
