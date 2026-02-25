@@ -2,7 +2,7 @@ AAC
 AAC’s
 Agentic
 auditable
-bioinformatics
+Bioinformatics
 chatbots
 codebase
 curation
@@ -16,7 +16,7 @@ FRAPO
 Hinxton
 integrations
 js
-JSON
+json
 KPIs
 LD
 lifecycle

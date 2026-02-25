@@ -10,7 +10,7 @@ keywords:
 - governance
 - data protection
 lang: en-US
-date-meta: '2026-02-16'
+date-meta: '2026-02-25'
 author-meta:
 - Sebastian Lobentanzer
 header-includes: |
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="og:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
   <meta property="twitter:title" content="The Agentic Automation Canvas: a structured framework for agentic AI project design" />
-  <meta name="dc.date" content="2026-02-16" />
-  <meta name="citation_publication_date" content="2026-02-16" />
-  <meta property="article:published_time" content="2026-02-16" />
-  <meta name="dc.modified" content="2026-02-16T16:22:05+00:00" />
-  <meta property="article:modified_time" content="2026-02-16T16:22:05+00:00" />
+  <meta name="dc.date" content="2026-02-25" />
+  <meta name="citation_publication_date" content="2026-02-25" />
+  <meta property="article:published_time" content="2026-02-25" />
+  <meta name="dc.modified" content="2026-02-25T14:30:49+00:00" />
+  <meta property="article:modified_time" content="2026-02-25T14:30:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/989f9756b204994df72ad9ca5b02b6e116ff93b8/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/989f9756b204994df72ad9ca5b02b6e116ff93b8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/989f9756b204994df72ad9ca5b02b6e116ff93b8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +70,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/43c287a7497a13249a0108c96206f93b2b93c51f/))
+([permalink](https://slolab.github.io/aac-manuscript/v/989f9756b204994df72ad9ca5b02b6e116ff93b8/))
 was automatically generated
-from [slolab/aac-manuscript@43c287a](https://github.com/slolab/aac-manuscript/tree/43c287a7497a13249a0108c96206f93b2b93c51f)
-on February 16, 2026.
+from [slolab/aac-manuscript@989f975](https://github.com/slolab/aac-manuscript/tree/989f9756b204994df72ad9ca5b02b6e116ff93b8)
+on February 25, 2026.
 </em></small>
 
 
@@ -123,7 +123,7 @@ Yet they also introduce a fundamental shift in how work is organized: unlike tra
 This shift necessitates new forms of negotiation between stakeholders, explicit governance structures, and documentation practices that go well beyond what conventional software development processes provide.
 In the current landscape, there is no established planning process for agentic systems; they are conceived *ad hoc*, and they are evaluated *ad hoc*.
 Often, the balance between user expectations and technical feasibility is not clear, and the record of project details and governance is neither standardised nor machine-readable.
-This can lead to the surprising finding that these systems are much less effective in practice than expected [@arxiv:2507.09089;@pmc:PMC12768499].
+This can lead to the surprising finding that these systems are much less effective in practice than expected, displaying an *expectation--realisation gap* [@doi:10.48550/arXiv.2602.20292;@arxiv:2507.09089;@pmc:PMC12768499].
 
 We present the Agentic Automation Canvas (AAC), a structured framework for designing, governing, and documenting agentic automation projects.
 Inspired by the Business Model Canvas [@isbn:9780470876411], which provides a single-page structured overview of a business model's key components, the AAC captures six interconnected dimensions of an agentic automation project: project definition, user expectations, developer feasibility, governance staging, data access and sensitivity, and outcomes (Figure @fig:canvas a).
