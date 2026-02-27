@@ -1,7 +1,7 @@
 AAC
 ABAC
-agentic
-Bioinformatics
+Agentic
+bioinformatics
 chatbots
 citable
 codebase

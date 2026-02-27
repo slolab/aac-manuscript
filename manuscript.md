@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2026-02-27" />
   <meta name="citation_publication_date" content="2026-02-27" />
   <meta property="article:published_time" content="2026-02-27" />
-  <meta name="dc.modified" content="2026-02-27T14:51:20+00:00" />
-  <meta property="article:modified_time" content="2026-02-27T14:51:20+00:00" />
+  <meta name="dc.modified" content="2026-02-27T15:16:27+00:00" />
+  <meta property="article:modified_time" content="2026-02-27T15:16:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://slolab.github.io/aac-manuscript/" />
   <meta name="citation_pdf_url" content="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://slolab.github.io/aac-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/df5d1c8ddce66905f070020a80833727561f20d6/" />
-  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/df5d1c8ddce66905f070020a80833727561f20d6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/df5d1c8ddce66905f070020a80833727561f20d6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://slolab.github.io/aac-manuscript/v/b319bc0cfea59af82cacd858438a15b7854b0c3a/" />
+  <meta name="manubot_html_url_versioned" content="https://slolab.github.io/aac-manuscript/v/b319bc0cfea59af82cacd858438a15b7854b0c3a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://slolab.github.io/aac-manuscript/v/b319bc0cfea59af82cacd858438a15b7854b0c3a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://slolab.github.io/aac-manuscript/v/df5d1c8ddce66905f070020a80833727561f20d6/))
+([permalink](https://slolab.github.io/aac-manuscript/v/b319bc0cfea59af82cacd858438a15b7854b0c3a/))
 was automatically generated
-from [slolab/aac-manuscript@df5d1c8](https://github.com/slolab/aac-manuscript/tree/df5d1c8ddce66905f070020a80833727561f20d6)
+from [slolab/aac-manuscript@b319bc0](https://github.com/slolab/aac-manuscript/tree/b319bc0cfea59af82cacd858438a15b7854b0c3a)
 on February 27, 2026.
 </em></small>
 
@@ -308,7 +308,7 @@ This workflow treats the AAC as the "Declare" phase input for the Policy Card's 
 
 The Agentic Automation Canvas web application and schema are openly available under the Apache License 2.0.
 Source code is maintained at [https://github.com/slolab/agentic-automation-canvas](https://github.com/slolab/agentic-automation-canvas).
-A citable archive of the version described in this manuscript is available from Zenodo at [https://doi.org/10.5281/zenodo.18649620](https://doi.org/10.5281/zenodo.18649620).
+A citable archive of all versions of the software is available from Zenodo at [https://doi.org/10.5281/zenodo.18649597](https://doi.org/10.5281/zenodo.18649597).
 The schema profile is available under the persistent W3ID namespace [https://w3id.org/aac](https://w3id.org/aac).
 
 ## References {.page_break_before}
