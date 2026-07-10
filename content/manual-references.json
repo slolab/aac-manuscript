@@ -37,5 +37,62 @@
       "family": "Dorard"
     }
   ]
+},
+{
+  "id": "provo",
+  "type": "report",
+  "title": "PROV-O: The PROV Ontology",
+  "genre": "W3C Recommendation",
+  "publisher": "World Wide Web Consortium (W3C)",
+  "URL": "https://www.w3.org/TR/prov-o/",
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        4,
+        30
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Timothy",
+      "family": "Lebo"
+    },
+    {
+      "given": "Satya",
+      "family": "Sahoo"
+    },
+    {
+      "given": "Deborah",
+      "family": "McGuinness"
+    }
+  ]
+},
+{
+  "id": "pplan",
+  "type": "paper-conference",
+  "title": "Augmenting PROV with Plans in P-Plan: Scientific Processes as Linked Data",
+  "container-title": "Proceedings of the Second International Workshop on Linked Science 2012 (LISC 2012)",
+  "collection-title": "CEUR Workshop Proceedings",
+  "volume": "951",
+  "URL": "https://ceur-ws.org/Vol-951/paper6.pdf",
+  "issued": {
+    "date-parts": [
+      [
+        2012
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Daniel",
+      "family": "Garijo"
+    },
+    {
+      "given": "Yolanda",
+      "family": "Gil"
+    }
+  ]
 }
 ]
