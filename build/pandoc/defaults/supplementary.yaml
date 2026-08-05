@@ -26,6 +26,8 @@ html-math-method:
 metadata:
   csl: build/assets/style.csl
   link-citations: true
+  bibliography:
+  - content/manual-references.json
   title: Supplementary Information
   subtitle: 'The Agentic Automation Canvas: a structured framework for agentic AI project design'
   manubot-requests-cache-path: ci/cache/requests-cache

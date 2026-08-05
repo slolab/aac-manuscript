@@ -1,5 +1,30 @@
 [
 {
+  "id": "arxiv:2510.24383",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2510.24383",
+  "number": "2510.24383",
+  "DOI": "10.5281/zenodo.17464706",
+  "title": "Policy Cards: Machine-Readable Runtime Governance for Autonomous AI Agents",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        29
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Juraj",
+      "family": "Mavračić"
+    }
+  ]
+},
+{
   "id": "url:https://github.com/manubot/rootstock",
   "type": "webpage",
   "URL": "https://github.com/manubot/rootstock",
