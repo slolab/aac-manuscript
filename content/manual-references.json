@@ -20,6 +20,36 @@
   ]
 },
 {
+  "id": "isbn:9780470876411",
+  "type": "book",
+  "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+  "publisher": "Wiley",
+  "publisher-place": "Hoboken, NJ",
+  "number-of-pages": "278",
+  "ISBN": "9780470876411",
+  "issued": {
+    "date-parts": [
+      [
+        2010
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Alexander",
+      "family": "Osterwalder"
+    },
+    {
+      "given": "Yves",
+      "family": "Pigneur"
+    },
+    {
+      "given": "Tim",
+      "family": "Clark"
+    }
+  ]
+},
+{
   "id": "mlc",
   "type": "webpage",
   "URL": "https://www.ownml.co/",
