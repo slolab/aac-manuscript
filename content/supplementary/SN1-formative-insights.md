@@ -32,7 +32,7 @@ This does not mean that agents are unnecessary whenever a conventional baseline 
 The AAC creates a place to record that comparison rather than assuming the answer in advance.
 
 | Case | Observation | Evidence role | Relevance to the AAC |
-|---|---|---|---|
+|---------------------|-----------------------------------|---------------|-----------------------------|
 | **Case A: conversational drug-discovery interface** | Large pre-implementation targets were linked to later evaluation milestones. | Supporting | Records expected benefits and how they will be tested. |
 | **Case B: multi-stage protein-design workflow** | The quality claim remained dependent on later computational and experimental validation. | Supporting | Makes dependencies and unresolved validation visible. |
 | **Case C: LLM-guided parameter optimisation** | A conventional optimisation baseline was planned but under-prioritised during implementation. | Mixed | Encourages explicit comparison with non-agentic methods. |
@@ -59,7 +59,7 @@ In Case I, the data handover was relatively straightforward, while the main cons
 This distinction matters: better packaging cannot compensate for an immature model, just as a mature model may remain unusable without a reproducible deployment path.
 
 | Case | Observation | Evidence role | Relevance to the AAC |
-|---|---|---|---|
+|---------------------|-----------------------------------|---------------|-----------------------------|
 | **Case F: heterogeneous-table harmonisation** | Inconsistent schemas and values created downstream errors and substantial manual work. | Supporting | Makes data preparation and ownership explicit. |
 | **Case G: sample-metadata onboarding** | The workflow required batch-column detection, format checks, identifier conversion, and interpretation of incomplete data references. | Supporting | Separates structured validation from tasks that may require interpretation. |
 | **Case H: model packaging and deployment** | Models were difficult to reuse when dependencies and environments were poorly documented. | Supporting | Records environment, tooling, and deployment requirements. |
@@ -85,7 +85,7 @@ The AAC does not require reuse.
 It makes the reuse-versus-rebuild decision more visible and provides a place to document why local development is justified.
 
 | Case | Observation | Evidence role | Relevance to the AAC |
-|---|---|---|---|
+|---------------------|-----------------------------------|---------------|-----------------------------|
 | **Case J: overlapping omics-preprocessing workflows** | Similar analysis stages were being assembled independently in several settings. | Supporting | Makes comparable workflow structures easier to identify. |
 | **Case K: iterative optimisation loops** | Similar run–score–adjust patterns appeared in unrelated technical domains. | Supporting | Supports comparison of reusable orchestration patterns and baselines. |
 | **Case L: metadata-onboarding tools** | Separate teams developed related metadata collection and validation systems. | Supporting | Makes possible reuse or deliberate divergence explicit. |
@@ -113,7 +113,7 @@ The AAC can make these distinctions explicit by recording the deployment environ
 It does not ensure that maintenance or adoption will be successful, but it makes missing responsibilities and constraints visible before they become operational failures.
 
 | Case | Observation | Evidence role | Relevance to the AAC |
-|---|---|---|---|
+|---------------------|-----------------------------------|---------------|-----------------------------|
 | **Case N: student-built prototype** | The prototype required heavy supervision and was not maintainable after the short development period. | Supporting | Connects implementation plans to ownership and staffing. |
 | **Case O: evolving research resource** | The resource was expected to become outdated quickly, but no long-term owner was identified. | Supporting | Makes maintenance intervals and responsibility explicit. |
 | **Case P: internal research service** | Deployment through approved institutional infrastructure took weeks. | Supporting | Separates prototype completion from deployment readiness. |
