@@ -12,13 +12,31 @@ keywords:
   - data protection
 lang: en-US
 authors:
+  - github: peymanvahidi
+    name: Peyman Vahidi
+    initials: PV
+    orcid: 0009-0005-4222-4250
+    email: peyman.vahidi@helmholtz-munich.de
+    affiliations:
+      - Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany
+      - School of CIT, Technical University of Munich, Munich, Germany
+    corresponding: false
+  - github: VladSam42
+    name: Vladislav Samoilov
+    initials: VS
+    orcid: 0009-0002-7090-6054
+    email: vladislav.samoilov@helmholtz-munich.de
+    affiliations:
+      - Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany
+    corresponding: false
   - github: slobentanzer
     name: Sebastian Lobentanzer
     initials: SL
-    orcid: https://orcid.org/0000-0003-3399-6695
+    orcid: 0000-0003-3399-6695
     email: sebastian.lobentanzer@helmholtz-munich.de
     affiliations:
       - Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany
+      - School of CIT, Technical University of Munich, Munich, Germany
       - German Center for Diabetes Research, Munich, Germany
       - Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom
     corresponding: true

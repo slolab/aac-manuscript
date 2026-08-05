@@ -1,0 +1,35 @@
+# Pandoc --defaults for the Supplementary Information PDF via weasyprint.
+# Self-contained: not layered on common.yaml, whose input-file would be
+# concatenated with (not overridden by) the one specified here.
+from: markdown
+input-file: output/supplementary.md
+to: html5
+output-file: output/supplementary.pdf
+filters:
+- pandoc-fignos
+- pandoc-eqnos
+- pandoc-tablenos
+- pandoc-manubot-cite
+- citeproc
+wrap: preserve
+pdf-engine: weasyprint
+pdf-engine-opts:
+- '--presentational-hints'
+include-after-body:
+- build/themes/default.html
+- build/themes/supplementary.html
+variables:
+  document-css: false
+  math: ""
+html-math-method:
+  method: webtex
+  url: 'https://latex.codecogs.com/svg.latex?'
+metadata:
+  csl: build/assets/style.csl
+  link-citations: true
+  bibliography:
+  - content/manual-references.json
+  title: Supplementary Information
+  subtitle: 'The Agentic Automation Canvas: a structured framework for agentic AI project design'
+  manubot-requests-cache-path: ci/cache/requests-cache
+  manubot-clear-requests-cache: false

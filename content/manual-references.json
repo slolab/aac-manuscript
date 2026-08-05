@@ -1,5 +1,30 @@
 [
 {
+  "id": "arxiv:2510.24383",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2510.24383",
+  "number": "2510.24383",
+  "DOI": "10.5281/zenodo.17464706",
+  "title": "Policy Cards: Machine-Readable Runtime Governance for Autonomous AI Agents",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        29
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Juraj",
+      "family": "Mavračić"
+    }
+  ]
+},
+{
   "id": "url:https://github.com/manubot/rootstock",
   "type": "webpage",
   "URL": "https://github.com/manubot/rootstock",
@@ -16,6 +41,36 @@
     {
       "given": "Daniel",
       "family": "Himmelstein"
+    }
+  ]
+},
+{
+  "id": "isbn:9780470876411",
+  "type": "book",
+  "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+  "publisher": "Wiley",
+  "publisher-place": "Hoboken, NJ",
+  "number-of-pages": "278",
+  "ISBN": "9780470876411",
+  "issued": {
+    "date-parts": [
+      [
+        2010
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Alexander",
+      "family": "Osterwalder"
+    },
+    {
+      "given": "Yves",
+      "family": "Pigneur"
+    },
+    {
+      "given": "Tim",
+      "family": "Clark"
     }
   ]
 },
