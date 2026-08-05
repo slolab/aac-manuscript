@@ -84,6 +84,24 @@ if [ "${BUILD_PDF}" != "false" ] && [ "${MANUBOT_USE_DOCKER}" == "true" ]; then
   rm -rf output/images
 fi
 
+# Create Supplementary Information PDF (unless BUILD_PDF environment variable equals "false")
+# Concatenates content/supplementary/SN*.md into the single self-contained PDF
+# required by journal submission guidelines. Always uses WeasyPrint.
+if [ "${BUILD_PDF}" != "false" ]; then
+  echo >&2 "Exporting Supplementary Information PDF using WeasyPrint"
+  for file in content/supplementary/SN*.md; do
+    cat "$file"
+    printf '\n'
+  done > output/supplementary.md
+  printf '\n# Supplementary References {.page_break_before}\n\n<div id="refs"></div>\n' >> output/supplementary.md
+  if [ -L images ]; then rm images; fi  # if images is a symlink, remove it
+  ln -s content/images
+  pandoc \
+    --data-dir="$PANDOC_DATA_DIR" \
+    --defaults=supplementary.yaml
+  rm images
+fi
+
 # Create DOCX output (if BUILD_DOCX environment variable equals "true")
 if [ "${BUILD_DOCX}" = "true" ]; then
   echo >&2 "Exporting Word Docx manuscript"
