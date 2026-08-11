@@ -75,6 +75,26 @@
   ]
 },
 {
+  "id": "isbn:9781492180746",
+  "type": "book",
+  "title": "The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you",
+  "publisher": "CreateSpace Independent Publishing Platform",
+  "ISBN": "9781492180746",
+  "issued": {
+    "date-parts": [
+      [
+        2013
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Rob",
+      "family": "Fitzpatrick"
+    }
+  ]
+},
+{
   "id": "mlc",
   "type": "webpage",
   "URL": "https://www.ownml.co/",
