@@ -19,6 +19,7 @@ authors:
     email: peyman.vahidi@helmholtz-munich.de
     affiliations:
       - Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany
+      - Helmholtz AI, Artificial Intelligence Cooperation Unit of the Helmholtz Association, Germany
       - School of CIT, Technical University of Munich, Munich, Germany
     corresponding: false
   - github: VladSam42
@@ -28,6 +29,7 @@ authors:
     email: vladislav.samoilov@helmholtz-munich.de
     affiliations:
       - Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany
+      - Helmholtz AI, Artificial Intelligence Cooperation Unit of the Helmholtz Association, Germany
     corresponding: false
   - github: slobentanzer
     name: Sebastian Lobentanzer
@@ -36,7 +38,8 @@ authors:
     email: sebastian.lobentanzer@helmholtz-munich.de
     affiliations:
       - Institute of Computational Biology, Computational Health Center, Helmholtz Center, Munich, Germany
-      - School of CIT, Technical University of Munich, Munich, Germany
+      - Helmholtz AI, Artificial Intelligence Cooperation Unit of the Helmholtz Association, Germany
       - German Center for Diabetes Research, Munich, Germany
       - Open Targets, European Bioinformatics Institute (EMBL-EBI), Hinxton, Cambridge, United Kingdom
+      - School of CIT, Technical University of Munich, Munich, Germany
     corresponding: true
