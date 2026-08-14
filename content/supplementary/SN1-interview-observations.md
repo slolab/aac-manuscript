@@ -20,6 +20,10 @@ Beat 1 (popularity) rests on the literature and beat 8 (the entry path) describe
 neither needs a subsection here.
 -->
 
+<!-- v2: the integration map above reflects the older nine-beat storyline (map beats 5-9 correspond to current beats 4-8), and beat 8.4 (canvases as LLM training and planning data) has no entry. Renumber once the discussion beats are settled during drafting. -->
+
+<!-- v2 (terminology): unify this note to the decided scheme: specification = fields and machine-readable FAIR format; canvas = the interactive tool; framework = the process of filling the canvas. "Shortened entry path" / "shortened version" (subsection 1.5) become the simplified view of the canvas within the framework. -->
+
 This note reports anonymised observations from the product-discovery conversations and completed canvases collected during development of the AAC.
 Each numbered subsection addresses one hypothesis about the planning and execution of agentic projects: hypothesis statement, list of relevant observations, optional notes.
 Observations are tabulated together with their evidence role: supporting, contradicting, or mixed.
@@ -173,6 +177,8 @@ The environment constraint provides a clear example of the usefulness of detail:
 
 ## 1.5 Barriers to Initial Canvas Completion
 
+<!-- v2: V2-REVIEW flags an open TODO in this subsection: the stalled-lab case has no record; locate a record or drop the claim before submission. The claim no longer appears in the current text; confirm it was dropped deliberately, or reinstate it with a record. -->
+
 **Hypothesis.** The level of detail that makes the canvas useful is also the main barrier to completing it.
 
 | Observation | Evidence role |
@@ -187,12 +193,14 @@ The environment constraint provides a clear example of the usefulness of detail:
 Its fields (headline value, primary driver, rough estimate, and feasibility) were completed in four of the seven canvases and skipped entirely in the remaining three.
 Late-stage sections were sparsely completed throughout: no canvas named a maintenance owner, none recorded a deployment environment, two recorded detailed milestones, and two recorded publication or evaluation plans.
 
+<!-- v2 (terminology): "shortened entry path" becomes the simplified view of the canvas within the framework (decided scheme). Apply in this paragraph and the design observation below. -->
 **Structure of the facilitated sessions.** The shortened entry path was used in two follow-up sessions, to complete gaps in existing canvases rather than to begin new ones.
 Descriptive metadata (title, abstract, domain, keywords, organisations) was never requested, because it could be inferred from context.
 In practice, sessions addressed topics in the following order: current working practice (revisited several times per session to elicit concrete facts, including the people involved), then tasks and intended benefits, then technical constraints and feasibility.
 This does not contradict the order of the canvas itself; the sessions followed no fixed sequence, and digressions were permitted and returned to later.
 
 **Design observation.** The shortened version could only be constructed by someone familiar with the full canvas: it is a selection from the full canvas, made with knowledge of all its fields.
+<!-- v2: reword the next sentence. After PR #53 the simplified canvas IS in the app (as the landing page), but as a view over one canonical artifact (one schema, one RO-Crate), not a separate artifact. "Not offered as a standalone artifact" is still true in that intended sense, but as written it can be read as "not in the app". -->
 For this reason, the shortened version is not offered as a standalone artifact.
 
 ## 1.6 Divergent Accounts of Shared Projects
