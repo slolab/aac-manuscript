@@ -452,5 +452,69 @@
       ]
     ]
   }
+},
+{
+  "id": "arxiv:2607.17225",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2607.17225",
+  "number": "2607.17225",
+  "DOI": "10.48550/arXiv.2607.17225",
+  "title": "Specifying the Delegated-Autonomy Boundary: Requirements Engineering for Agentic AI",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        19
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Chetan",
+      "family": "Arora"
+    },
+    {
+      "given": "Andreas",
+      "family": "Vogelsang"
+    },
+    {
+      "given": "Abbi",
+      "family": "Sharma"
+    }
+  ]
+},
+{
+  "id": "url:https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-design-canvas-framework",
+  "type": "webpage",
+  "URL": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-design-canvas-framework",
+  "title": "Use the agent design framework",
+  "container-title": "Microsoft Copilot Studio documentation",
+  "publisher": "Microsoft Learn",
+  "author": [
+    {
+      "literal": "Microsoft"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        23
+      ]
+    ]
+  },
+  "accessed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        8
+      ]
+    ]
+  }
 }
 ]
