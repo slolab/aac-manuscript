@@ -1,5 +1,30 @@
 [
 {
+  "id": "arxiv:2510.24383",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2510.24383",
+  "number": "2510.24383",
+  "DOI": "10.5281/zenodo.17464706",
+  "title": "Policy Cards: Machine-Readable Runtime Governance for Autonomous AI Agents",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        29
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Juraj",
+      "family": "Mavračić"
+    }
+  ]
+},
+{
   "id": "url:https://github.com/manubot/rootstock",
   "type": "webpage",
   "URL": "https://github.com/manubot/rootstock",
@@ -16,6 +41,56 @@
     {
       "given": "Daniel",
       "family": "Himmelstein"
+    }
+  ]
+},
+{
+  "id": "isbn:9780470876411",
+  "type": "book",
+  "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+  "publisher": "Wiley",
+  "publisher-place": "Hoboken, NJ",
+  "number-of-pages": "278",
+  "ISBN": "9780470876411",
+  "issued": {
+    "date-parts": [
+      [
+        2010
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Alexander",
+      "family": "Osterwalder"
+    },
+    {
+      "given": "Yves",
+      "family": "Pigneur"
+    },
+    {
+      "given": "Tim",
+      "family": "Clark"
+    }
+  ]
+},
+{
+  "id": "isbn:9781492180746",
+  "type": "book",
+  "title": "The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you",
+  "publisher": "CreateSpace Independent Publishing Platform",
+  "ISBN": "9781492180746",
+  "issued": {
+    "date-parts": [
+      [
+        2013
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Rob",
+      "family": "Fitzpatrick"
     }
   ]
 },
@@ -94,5 +169,352 @@
       "family": "Gil"
     }
   ]
+},
+{
+  "id": "arxiv:2609.14900",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2609.14900",
+  "number": "2609.14900",
+  "DOI": "10.48550/arXiv.2609.14900",
+  "title": "First Impressions: How Placement Shapes the Influence of AI Summaries",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Wang",
+      "family": "Claire"
+    },
+    {
+      "given": "Agam",
+      "family": "Goyal"
+    },
+    {
+      "given": "Frederick",
+      "family": "Choi"
+    },
+    {
+      "given": "Koustuv",
+      "family": "Saha"
+    },
+    {
+      "given": "Eshwar",
+      "family": "Chandrasekharan"
+    }
+  ]
+},
+{
+  "id": "arxiv:2611.03551",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2611.03551",
+  "number": "2611.03551",
+  "DOI": "10.48550/arXiv.2611.03551",
+  "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        2
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Marianne Menglin",
+      "family": "Liu"
+    },
+    {
+      "given": "Rongguang",
+      "family": "Wang"
+    },
+    {
+      "given": "Zheng",
+      "family": "Wang"
+    },
+    {
+      "given": "Yewen",
+      "family": "Wang"
+    },
+    {
+      "given": "Leonid",
+      "family": "Boytsov"
+    },
+    {
+      "given": "Tao",
+      "family": "Sheng"
+    },
+    {
+      "given": "Sujith",
+      "family": "Ravi"
+    },
+    {
+      "given": "Dan",
+      "family": "Roth"
+    }
+  ]
+},
+{
+  "id": "arxiv:2605.05828",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2605.05828",
+  "number": "2605.05828",
+  "DOI": "10.48550/arXiv.2605.05828",
+  "title": "From Chat to Interview: Agentic Requirements Elicitation with an Experience Ontology",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        7
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Dongming",
+      "family": "Jin"
+    },
+    {
+      "given": "Zhi",
+      "family": "Jin"
+    },
+    {
+      "given": "Yaotian",
+      "family": "Yang"
+    },
+    {
+      "given": "Linyu",
+      "family": "Li"
+    },
+    {
+      "given": "Zheng",
+      "family": "Fang"
+    },
+    {
+      "given": "Yuanpeng",
+      "family": "He"
+    },
+    {
+      "given": "Wenchun",
+      "family": "Jing"
+    },
+    {
+      "given": "Xiaohong",
+      "family": "Chen"
+    }
+  ]
+},
+{
+  "id": "arxiv:2602.18306",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2602.18306",
+  "number": "2602.18306",
+  "DOI": "10.48550/arXiv.2602.18306",
+  "title": "ReqElicitGym: An Evaluation Environment for Interview Competence in Conversational Requirements Elicitation",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        20
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Dongming",
+      "family": "Jin"
+    },
+    {
+      "given": "Zhi",
+      "family": "Jin"
+    },
+    {
+      "given": "Zheng",
+      "family": "Fang"
+    },
+    {
+      "given": "Linyu",
+      "family": "Li"
+    },
+    {
+      "given": "XiaoTian",
+      "family": "Yang"
+    },
+    {
+      "given": "Yuanpeng",
+      "family": "He"
+    },
+    {
+      "given": "Xiaohong",
+      "family": "Chen"
+    }
+  ]
+},
+{
+  "id": "arxiv:2610.07132",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2610.07132",
+  "number": "2610.07132",
+  "DOI": "10.48550/arXiv.2610.07132",
+  "title": "CroissantMiner: Automated Extraction and Validation of Croissant Metadata for ML Datasets",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        5
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Berke",
+      "family": "Arda"
+    },
+    {
+      "given": "Ahmetcan",
+      "family": "Yavuz"
+    },
+    {
+      "given": "Paul",
+      "family": "Gerry"
+    },
+    {
+      "given": "Sebastian",
+      "family": "Lobentanzer"
+    },
+    {
+      "given": "Nobin",
+      "family": "Sarwar"
+    },
+    {
+      "given": "Joan",
+      "family": "Giner-Miguelez"
+    },
+    {
+      "given": "Kongtao",
+      "family": "Chen"
+    },
+    {
+      "given": "Luyao",
+      "family": "Zhang"
+    },
+    {
+      "given": "Mrinmaya",
+      "family": "Sachan"
+    },
+    {
+      "given": "Mubashara",
+      "family": "Akhtar"
+    }
+  ]
+},
+{
+  "id": "url:https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html",
+  "type": "webpage",
+  "URL": "https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html",
+  "title": "Croissant Format Specification, Version 1.1",
+  "container-title": "MLCommons",
+  "publisher": "MLCommons",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        12
+      ]
+    ]
+  },
+  "accessed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        8
+      ]
+    ]
+  }
+},
+{
+  "id": "arxiv:2607.17225",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2607.17225",
+  "number": "2607.17225",
+  "DOI": "10.48550/arXiv.2607.17225",
+  "title": "Specifying the Delegated-Autonomy Boundary: Requirements Engineering for Agentic AI",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        19
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Chetan",
+      "family": "Arora"
+    },
+    {
+      "given": "Andreas",
+      "family": "Vogelsang"
+    },
+    {
+      "given": "Abbi",
+      "family": "Sharma"
+    }
+  ]
+},
+{
+  "id": "url:https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-design-canvas-framework",
+  "type": "webpage",
+  "URL": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-design-canvas-framework",
+  "title": "Use the agent design framework",
+  "container-title": "Microsoft Copilot Studio documentation",
+  "publisher": "Microsoft Learn",
+  "author": [
+    {
+      "literal": "Microsoft"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        23
+      ]
+    ]
+  },
+  "accessed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        8
+      ]
+    ]
+  }
 }
 ]
