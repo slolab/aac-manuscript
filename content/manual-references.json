@@ -365,5 +365,92 @@
       "family": "Chen"
     }
   ]
+},
+{
+  "id": "arxiv:2610.07132",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2610.07132",
+  "number": "2610.07132",
+  "DOI": "10.48550/arXiv.2610.07132",
+  "title": "CroissantMiner: Automated Extraction and Validation of Croissant Metadata for ML Datasets",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        5
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Berke",
+      "family": "Arda"
+    },
+    {
+      "given": "Ahmetcan",
+      "family": "Yavuz"
+    },
+    {
+      "given": "Paul",
+      "family": "Gerry"
+    },
+    {
+      "given": "Sebastian",
+      "family": "Lobentanzer"
+    },
+    {
+      "given": "Nobin",
+      "family": "Sarwar"
+    },
+    {
+      "given": "Joan",
+      "family": "Giner-Miguelez"
+    },
+    {
+      "given": "Kongtao",
+      "family": "Chen"
+    },
+    {
+      "given": "Luyao",
+      "family": "Zhang"
+    },
+    {
+      "given": "Mrinmaya",
+      "family": "Sachan"
+    },
+    {
+      "given": "Mubashara",
+      "family": "Akhtar"
+    }
+  ]
+},
+{
+  "id": "url:https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html",
+  "type": "webpage",
+  "URL": "https://docs.mlcommons.org/croissant/docs/croissant-spec-1.1.html",
+  "title": "Croissant Format Specification, Version 1.1",
+  "container-title": "MLCommons",
+  "publisher": "MLCommons",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        12
+      ]
+    ]
+  },
+  "accessed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        8
+      ]
+    ]
+  }
 }
 ]

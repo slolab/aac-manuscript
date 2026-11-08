@@ -98,12 +98,6 @@ Cases were selected because they are clearly documented or because they contradi
 | An approximately 50,000-line R package was reimplemented in about two weeks, substantially faster than conventional development estimates would suggest. | Supporting |
 | Where agentic approaches yield gains is itself uncertain. One participant located the gains in repeated analyses and in analyses with a person in the loop, offered as an assessment rather than a measurement. | Mixed |
 
-<!--
-Worked-example guidance for the main text (beat 8.1): the conversational drug-target search canvas
-is the best example at full depth, because it carries numbers and a milestone that tests them.
-The protein design canvas is the best example of a canvas exposing an unresolved dependency.
--->
-
 ## 1.4 Details That Determined Project Outcomes
 
 **Hypothesis.** Project feasibility is determined by operational details (data standards, maintenance ownership, licensing, environment, data locality, model transfer) that shorter planning formats omit.
