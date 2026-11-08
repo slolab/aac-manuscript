@@ -105,3 +105,113 @@ A note on optics: the current gap citation set leans on our own companion paper 
 
 - **Sequential Evaluation with Model Preregistration** (Kjell et al., Clinical Psychological Science, 2026-05-04). Lock and preregister a model, then test prospectively on a future sample; the preregistered predictions held. A 2026 precedent for commit-then-compare in AI evaluation. @doi:10.1177/21677026261439026
 - **Preregistering for the next LLM** (Thomas, Gligoric, Shah, preprint, 2026-06-26). Commit the analysis before the eligible model exists; ~73% of p-hacks failed to transfer. The AI community converging on commitment-before-outcome protocols. @arxiv:2606.27687
+
+# Extension: August to November 2026
+
+Produced 2026-11-08. Window: 2026-08-14 to 2026-11-08. Three parallel searches: reception and competing frameworks; expectation-realisation gap and agentic AI in science; elicitation, FAIR, and preregistration. arXiv IDs were checked against the arXiv API and DOIs against Crossref on 2026-11-08. Semantic Scholar was rate-limited and not queried.
+
+## What changes the manuscript (extension)
+
+1. **Traceable Trust is a self-citation, not reception.** It is the first worked AAC application outside our paper (qPCR repeat-flagging project mapped onto every AAC section) and supports the canvas-to-runtime handoff (ELN/LIMS records, Workflow Run RO-Crate). Its reference 33 lists the AAC as single-author; fix in its v2. @arxiv:2608.17997
+2. **Add AI-GRACE and the Delegated-Autonomy Boundary paper to positioning.** Both are prospective and use-case-level. The Agency Justification Record asks whether an agent is warranted at all, the same question as our solution-agnostic first phase; cite it where consultations found agents were not needed. Both are conceptual, illustrated with fictional cases, with no machine-readable record. @arxiv:2609.21192 @arxiv:2607.17225
+3. **Add AGENT-O next to Agent Cards.** First OWL/SHACL agent card; retrospective. Its finding that 82.8% of 279 papers report governance incompletely supports "evaluated ad hoc". @arxiv:2608.28345
+4. **Cite the OECD working paper for governance staging**, paired with Perils of Agency for developer feasibility. @doi:10.1787/1257a26f-en @doi:10.1609/aies.v9i3.43255
+5. **Interviewing-skill component of the facilitation gap: add new evidence.** Forward-deployed engineer study (best agents find 80%+ of withheld requirements, 40% still missing or misrepresented overall), InterviewBot (deepening probes in 4.9% of turns), Khan et al. (LLM facilitators stay closer to context, hedge less), Singhal et al. (AI-assisted scripts cover fewer topics, 9.6 vs 14.5). AREAs-Lab and Agent4RE are counter-examples tested only with simulated users. None addresses anchoring.
+6. **Anchoring component: add Wang et al.** Preregistered, N=278: the first source read anchors judgment, and people underestimate AI influence. Mechanism evidence next to Lin et al. 2026. @arxiv:2609.14900
+7. **Balance the AGENTS.md claim.** Lulla et al. alone is one-sided. Gloaguen et al. (v3 2026-09-29) find no task-success gain and 20%+ more inference cost; Khatri finds no correctness effect; Xu and Wu find agents follow a stale instruction file over the code in 90% of runs. Reword to: the export carries intent and constraints and saves runtime and tokens; do not imply higher task success. The stale-file result argues for generating AGENTS.md from the versioned canvas.
+8. **Detail vs onboarding (beat 6, 8.4): cite Agarwal et al.** Spec-driven development in practice: implementation detail helps agents but makes specs stale and raises planning cost; the individual benefit is clarifying intent before delegating. @arxiv:2608.25202
+9. **Beat 8.2: cite CroissantMiner and LLMCrater.** CroissantMiner (co-authored by S. Lobentanzer, NeurIPS 2026 E&D): post-hoc extraction of Croissant fields is unreliable, worst for Responsible AI fields, which argues for prospective authoring. LLMCrater (eScience 2026) generates stage-wise RO-Crate metadata starting at a Design stage; nearest prior art for prospective RO-Crate, a reviewer may raise it.
+10. **Beat 8.5: add Vaccaro (ICML 2026, preregistration should cover estimands and decision thresholds), Williams et al. (registered pre-release predictions), and Stewart et al. (RCT testing a promised time saving).** Evaluation Cards contains a design-preregistration item that links tiered documentation and preregistration. No journal paper preregisters expected AI deployment benefits and compares them with realised ones; that gap supports beat 8.5 as a proposal.
+11. **Citation and version updates.** 2025 AI Agent Index: replace @arxiv:2602.17753 with @doi:10.1145/3805689.3806728. ADR context study: now EASE 2026; soften "beats larger models" to its own wording ("context engineering, rather than model scale alone, is the dominant factor"). Spec Kit: v1.3.2 (2026-11-06), about 148,600 stars. MCP registry: still preview; spec 2026-07-28 still latest. RO-Crate 1.3.0 and Croissant 1.1 still latest. Agent Spec 26.3.1 if a version is given. A2A, IMDA, Policy Cards, NIST CAISI: no change.
+12. **EU AI Act.** Digital Omnibus reportedly adopted (Regulation (EU) 2026/1744): Annex III high-risk obligations from 2027-12-02, Annex I products from 2028-08-02. Dates from secondary sources only; check EUR-Lex. Classification guidelines still draft.
+13. **Name collisions.** Microsoft's agent design canvas is still promoted (Live!360, 2026-11-19). New academic collision: "A canvas for coding agent context" (Onward! 2026). First published Business Model Canvas adaptation for AI ventures (Retkoceri et al.); the Strategyzer statement still holds.
+
+14. **Intro citation set.** Add Paper2Agent (Nature, September) and AutoDNA (Nature, November) to Co-Scientist, Robin, and Biomni. Use the Nature Reviews Methods Primer as the review citation, because it treats documentation and reproducible reporting as part of the method; the Cell perspective is the alternative.
+15. **Gap paragraph: add independent field evidence.** NBER w35275 (September revision): autonomous coding agents raise commits about 240% but releases only about 30%. Nature Cancer irAE agent: F1 0.92 retrospective, 0.72 to 0.79 in prospective silent deployment. Together they reduce reliance on our companion paper.
+16. **Anchoring component: cite the Anthropic judgment-calls RCT.** Analysts followed an agent's hidden preference 86% of the time against 50% chance. Randomized, with a real agent; stronger than the design-ideation study. Disclose that it is Anthropic's own study.
+17. **Governance: cite the Nature Medicine on-premise clinical agent paper.** It names institutionally governed deployment as an unmet requirement for clinical translation, which AAC governance staging records in advance.
+18. **Autonomy taxonomies.** Mention the npj Drug Discovery "Spectrum of Agentic Autonomy" next to Kasirzadeh and Gabriel. Both classify systems; neither records a prospective per-project design.
+19. **Beat 8.5: cite RECLAIM.** It fixes the success criterion per paper before the agent runs, a commit-then-compare design from agent evaluation.
+20. **Corrections to the earlier scan.** Ding et al. is dated 2026-06-29, not August. Bisht et al. is now a NeurIPS 2026 position paper. General AgentBench v2 is titled "Evaluating Test-Time Scaling of General LLM Agents". Gartner Hype Cycle may be dated April 2026, not June; verify. McKinsey State of AI 2026 (August) supersedes older adoption figures. METR: no new productivity result.
+
+## Reception of v1 (extension)
+
+OpenAlex records one citation of arXiv:2602.15090, a self-citation. GitHub repo: 7 stars, 2 forks. No organic discussion.
+
+- **Traceable Trust for action-ready artificial intelligence in bioscience** (Xin, Cai, ..., Lobentanzer, preprint, 2026-08-18). Section 3.2 walks a qPCR repeat-flagging project through the AAC fields and places Policy Cards at the runtime layer. See action item 1. @arxiv:2608.17997
+
+## Competing and neighbouring frameworks (extension)
+
+- **AI-GRACE** (Cuneo, Chun, Khanna, preprint, 2026-09-18). Use-case operationalization for agentic AI: seven risk domains including "mission and value realization", an Agent Operating Envelope, Risk-Aligned Independence Levels. Fictional banking case only. Closest in-window academic neighbour; no quantified benefit record, no export, no user evidence. @arxiv:2609.21192
+- **Specifying the Delegated-Autonomy Boundary** (Arora, Vogelsang, Sharma, preprint, 2026-07-19, missed by the earlier scan; ASE 2026 NIER unverified). Agency Justification Record and Agentic Delegation Policy with graduated authority tiers. @arxiv:2607.17225
+- **The Perils of Agency** (Lee et al., AIES 2026). 35 industry developers prioritize product risks, lack mature controls, and mitigate by restricting autonomy. Supports developer-feasibility and governance-staging sections. @doi:10.1609/aies.v9i3.43255
+- **Agentic AI in organisations: early insights from practitioner interviews** (OECD AI Papers, 2026-09-16). 25 organisations, 11 countries; none deploys unrestricted autonomy; deployment where outcomes are verifiable and errors reversible; most extend NIST AI RMF or ISO/IEC 42001. @doi:10.1787/1257a26f-en
+- **Bounded Autonomy** (Kling, Bender, Reese, HMD, 2026-08-12, German). Consulting evidence: "agents" are mostly deterministic workflows with limited decision rights. Parallel to our consultations. @doi:10.1365/s40702-026-01319-3
+- **AGENT-O** (Li, Tao, preprint, 2026-08-28). OWL 2/SHACL agent card for healthcare; applied to 279 papers, governance reporting incomplete in 82.8%, provenance in 78.1%. Retrospective. @arxiv:2608.28345
+- **Towards Portable Specification of the Agent Harness** (Gertler, Novelli, Floridi, preprint, 2026-10-29). Eight harness components and a versioned run record; model and agent cards miss run configuration. Leaves planning open. @arxiv:2610.40917
+- **Agents Are Systems, Not Models** (Wiedmann et al., preprint, 2026-10-01). Task information given to the agent changed outcomes more than time budget or model size. Supports the context export and "planning and context data". @arxiv:2610.01618
+- **Can LLM Agents Be Forward-Deployed Engineers?** (Liu et al., preprint, 2026-11-02). Simulated-customer discovery on a real text-to-SQL engagement; see action item 5. @arxiv:2611.03551
+- **Agentic inequality** (Sharp, Bilgin, Gabriel, Hammond, Nature Machine Intelligence, 2026-10-20). Follow-up to agentic profiles on unequal capability. Only if the discussion covers access. @doi:10.1038/s42256-026-01318-5
+- **Agentic profiles follow-ups.** No Matters Arising or reply in Nature; 19 in-window citers, mostly ethics and alignment.
+- Lower priority: Agentic Configuration Management (@arxiv:2608.11166, implementation layer); Three-Pillar Governance Framework (@arxiv:2610.30445, progressive autonomy, no artifact); Singapore Consensus 2026 (@arxiv:2608.14611); agency typology (@arxiv:2608.20041, philosophical, rule out).
+- **Standards and regulation.** ITU-T F.748.93 "Framework and requirements for AI agent interoperability" approved 2026-08-29 (text restricted) @url:https://www.itu.int/rec/T-REC-F.748.93-202608-P. ISO/IEC SC 42: no agentic work item (secondary source). NIST CAISI: nothing finalized; an "AI RMF 2.0 agentic profile" blog claim is unconfirmed, do not cite. EU AI Act: see action item 12. Policy Cards: still v1; new citer Beyond Training (@arxiv:2609.10105) is again runtime-layer. A2A still v1.0.1. IMDA still v1.5. Agent Spec 26.3.1 (2026-09-11), runtime changes only.
+- **Name collisions.** The Developer as Curator: a canvas for coding agent context (Onward! 2026) @doi:10.1145/3840586.3843212. Reconceptualizing the Business Model Canvas for the AI-Augmented Solo Venture (Administrative Sciences, 2026-11-02) @doi:10.3390/admsci16110538. Product launches (Tripo, AKOOL "Agentic Canvas") need no citation.
+
+## Simplified canvas, facilitation gap, elicitation (extension)
+
+- **AREAs-Lab** (Cai et al., Findings of EMNLP 2026, 2026-08-29). Assistant refines AI-project requirements by inspecting the dataset and asking questions; simulated users only. @arxiv:2608.28979
+- **When the Interviewer Is a Bot** (Zhang et al., HCOMP 2026, 2026-08-11). Deepening probes 4.9% of turns; 28.7% of question turns stack questions. @arxiv:2608.10412
+- **Human and LLM Facilitation in Collaborative Design Meetings** (Khan et al., preprint, 2026-10-09). AMI corpus; human facilitators move further from context and hedge more than Llama 3.1 8B. @arxiv:2610.13082
+- **AI-assisted Script Management for Requirements Elicitation Interviews** (Singhal, Carvalho, Breaux, preprint, 2026-08-03). Better scripts (92.8 vs 74.8), fewer topics covered (9.6 vs 14.5). @arxiv:2608.01640
+- **First Impressions** (Wang et al., preprint, 2026-09-14). Preregistered, N=278; first source anchors; AI influence underestimated. @arxiv:2609.14900
+- **Patient-centered AI for clinical visit preparation** (Tan et al., Google, preprint, 2026-10-30). Prospective randomized, N=802: structured agent beat open chat (67.2% vs 50.6%); clinician and patient ratings did not correlate, relevant to how we score outcomes. @arxiv:2610.41437
+- Lower priority: Learning to GUIDE the Group (@arxiv:2610.16231, facilitation as automation target); The Specification Paradox (@arxiv:2608.16618, position paper); Agent4RE (@arxiv:2610.10628, simulated stakeholders).
+- No new versions of OntoAgent, ReqElicitGym, AInterviewer, Tsirmpas et al., Salgado Neto et al.; Evaluation Cards still v2, no venue.
+
+## FAIR, RO-Crate, Croissant, MCP, AGENTS.md (extension)
+
+- **Evaluating AGENTS.md** (Gloaguen et al., ETH Zurich, preprint, v1 2026-02-12, v3 2026-09-29, missed earlier). Context files do not generally improve task success; 20%+ more inference cost. @arxiv:2602.11988
+- **Do Context Files Help Coding Agents?** (Khatri, preprint, 2026-07-28). 288 runs; no effect on correctness. @arxiv:2607.27250
+- **Stale Instruction Files Override the Code** (Xu, Wu, preprint, 2026-10-22). 90.1% of choices followed the outdated file. @arxiv:2610.30571
+- **Evidence-Based Template for Agent Instruction Files** (Shanto et al., preprint, 2026-11-02). 3,387 files; 16.1% of corresponding sections diverge across formats; 40.4% modified once; a template raises coverage from 18.7% to 82.8%. @arxiv:2611.02383
+- **Spec-Driven Development as Prescribed and as Practiced** (Agarwal, Vasilescu et al., preprint, 2026-08-25, v4 2026-10-15). See action item 8. @arxiv:2608.25202
+- **Grounding AI Agents in Contracts** (Tufano et al., Google, SpecOps 2026). Pre/post-conditions first: +9.8 points bug detection. @arxiv:2608.17177
+- **GADR** (Costa da Silva, Gama, preprint, 2026-08-18). Meeting transcripts to ADR drafts. Fits a future-work sentence on AI-augmented facilitated sessions. @arxiv:2608.17694
+- **CroissantMiner** (Arda et al., incl. Lobentanzer, NeurIPS 2026 E&D, 2026-10-05). @arxiv:2610.07132
+- **LLMCrater** (Termaat et al., eScience 2026 poster, 2026-08-24). @arxiv:2608.23158
+- **From FAIR to AI-FAIR** (Campolongo et al., preprint, 2026-11-02). AI-FAIR criteria mapped to DataCite, Schema.org, Croissant. @arxiv:2611.03327
+- **Workflow Cards** (Marchioro et al., eScience 2026). Retrospective run summaries; supports the prospective/retrospective distinction. @arxiv:2608.11022
+- **MCP registry census and drift** (Kraishan, preprint, 2026-09-12): 21,643 servers, 40.6% of multi-version servers silently changed what they advertise. @arxiv:2609.14119. **Random draw from the MCP registry** (Afsar, preprint, 2026-09-10): 48.8% complete a handshake. @arxiv:2609.10962
+- Lower priority: Spec-Driven Development for Agentic SE (@arxiv:2609.00252, conceptual); AI-SDLC (@arxiv:2609.24348); SciDSK (@arxiv:2608.19625); claim-aware observability (@arxiv:2608.18312); MCP-Eco (@arxiv:2611.06897).
+- NIH: NOT-OD-26-100 requires data-sharing progress reporting in RPPRs from 2026-10-01 (search listing only, not opened).
+
+## Preregistration (extension)
+
+- **Preregistration for Experiments with AI Agents** (Vaccaro, ICML 2026 spotlight position paper, missed earlier). @arxiv:2606.11217
+- **Predicting LLM Safety Before Release by Simulating Deployment** (Williams et al., preprint, 2026-07-08, missed earlier). @arxiv:2607.07184
+- **Does AI Save Time on Product Design?** (Stewart et al., preprint, 2026-09-22). RCT, 100 participants, about 20% shorter completion times; not stated as preregistered. @arxiv:2609.26725
+- **Re-executing Coding-Agent Evaluations** (Ding et al., preprint, 2026-10-10). Two preregistered re-executions, negative results. Marginal. @arxiv:2610.14460
+
+## Expectation-realisation gap (extension)
+
+- **Writing Code vs. Shipping Code** (Demirer, Musolff, Yang, NBER Working Paper 35275, May 2026, revised September 2026). 500,000+ GitHub developers: autonomous agents raise commits about 240%, projects about 80%, releases about 30%; new apps rose but total usage did not. Weak-link pattern. Cite the revised version; numbers changed. @doi:10.3386/w35275
+- **Agentic AI for detection of immune-related adverse events** (Gallifant et al., Nature Cancer, 2026-10-29). Macro-F1 0.92 retrospective, binary F1 0.72 to 0.79 in 3-month prospective silent deployment; randomized crossover saved 2.71 min per case. Measured realisation gap plus a clear benefit with human verification. @doi:10.1038/s43018-026-01264-6
+- **Who Finishes the Job?** (Takerngsaksiri, Duong, Barnett, preprint, 2026-09-22). 6,774 merged agent PRs need later fixes more often than human PRs (odds ratio 1.62); humans write most fixes. @arxiv:2609.26847
+- **RECLAIM** (Salunkhe et al., preprint, 2026-09-23). 100 NeurIPS 2025 papers, success criteria fixed in advance; best agent reproduces 41% with released artifacts, 27% when retraining, 15% when reimplementing. @arxiv:2609.28850
+- **McKinsey, The State of AI in 2026** (2026-08-25, N=1,719, secondary). About 40% of $1B+ firms scale agents (up from 27%), about 37% report any EBIT impact (flat). Verify figures. @url:https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+- **Follow-ups.** General AgentBench v2 (2026-09-29, new title). Co-Scientist closed-loop extension (Schmidgall et al., preprint, 2026-08-27) @arxiv:2608.26701. No updates for METR, OSWorld 2.0, Remote Labor Index, efficiency-gain illusion, Stanford AI Index, MIT NANDA.
+- Lower priority: Beyond Code Generation (Bhati, synthesis, no new data) @arxiv:2609.04681.
+- Pre-window, missed earlier: Kenya primary-care LLM cluster RCT, 9,691 patients, safe but no reduction in treatment failure (Agweyu et al., Nature Medicine, 2026-06-26) @doi:10.1038/s41591-026-04503-6; Alibaba agentic customer-service field experiment, speed traded against satisfaction (@arxiv:2605.14830).
+
+## Agentic AI in science (extension)
+
+- **Paper2Agent** (Miao, ..., Pritchard, Zou, Nature, 2026-09-16). Turns a paper's code and data into a tested MCP server; AlphaGenome, Scanpy, TISSUE. Supports the intro and the MCP export choice. @doi:10.1038/s41586-026-11044-y, news @doi:10.1038/d41586-026-02880-z
+- **AutoDNA: AI-native autonomous biomolecular laboratory** (Wu et al., Nature, 2026-11-04). Abstract not accessible; details from the 2025 preprint. @doi:10.1038/s41586-026-11228-6
+- **On-premise medical AI agents for reliable clinical decision-making** (Zhang, Wölflein, Ferber et al., Nature Medicine, 2026-09-15). Names institutional governance and decision-time uncertainty as unmet requirements; 98.9% accuracy on the confident half, rest deferred to humans. @doi:10.1038/s41591-026-04609-x
+- **Agentic AI systems for scientific discovery** (Feng et al., Nature Reviews Methods Primers, 2026-10-22). Treats evaluation, documentation, and reproducible reporting as part of the method. @doi:10.1038/s43586-026-00534-y
+- **Toward autonomous science with agentic artificial intelligence** (Guo et al., Cell perspective, 2026-09-17). @doi:10.1016/j.cell.2026.08.052
+- **The rise of agentic AI in drug discovery** (Zhao et al., npj Drug Discovery, 2026-10-12). Six-level Spectrum of Agentic Autonomy; full-chain traceability. @doi:10.1038/s44386-026-00075-0
+- **How AI agents shape experts' judgment calls** (Herdağdelen, Joren, Tamkin, Anthropic technical report, 2026-10-27). RCT, 50 analysts: followed hidden agent preference 86% vs 50% chance; 77% reused agent arguments, 15% credited it. @url:https://www.anthropic.com/research/agents-judgment-calls
+- **Author-in-the-loop agentic reproducibility auditing** (Dong et al., preprint, 2026-10-15). Deployed at MLSys 2026; structured author declarations as input to agent verification. @arxiv:2610.22465
+- Lower priority: HypoEvolve (@arxiv:2609.15938, close to the Open Targets case); greCAPTCHA (@arxiv:2609.20481, authorship accountability); Senate hearing on agent incidents, METR testimony (@url:https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/).
+- No new journal or funder policy statement on AI scientists in the window. Pre-window, missed earlier: Thorp, Science editorial, 2026-07-16 @doi:10.1126/science.aek5570; NeurIPS 2026 position-track AI-generated papers blog (2026-06-02); Brunnsåker et al., J. R. Soc. Interface @doi:10.1098/rsif.2026.0043.
