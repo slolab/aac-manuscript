@@ -169,5 +169,201 @@
       "family": "Gil"
     }
   ]
+},
+{
+  "id": "arxiv:2609.14900",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2609.14900",
+  "number": "2609.14900",
+  "DOI": "10.48550/arXiv.2609.14900",
+  "title": "First Impressions: How Placement Shapes the Influence of AI Summaries",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Wang",
+      "family": "Claire"
+    },
+    {
+      "given": "Agam",
+      "family": "Goyal"
+    },
+    {
+      "given": "Frederick",
+      "family": "Choi"
+    },
+    {
+      "given": "Koustuv",
+      "family": "Saha"
+    },
+    {
+      "given": "Eshwar",
+      "family": "Chandrasekharan"
+    }
+  ]
+},
+{
+  "id": "arxiv:2611.03551",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2611.03551",
+  "number": "2611.03551",
+  "DOI": "10.48550/arXiv.2611.03551",
+  "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        2
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Marianne Menglin",
+      "family": "Liu"
+    },
+    {
+      "given": "Rongguang",
+      "family": "Wang"
+    },
+    {
+      "given": "Zheng",
+      "family": "Wang"
+    },
+    {
+      "given": "Yewen",
+      "family": "Wang"
+    },
+    {
+      "given": "Leonid",
+      "family": "Boytsov"
+    },
+    {
+      "given": "Tao",
+      "family": "Sheng"
+    },
+    {
+      "given": "Sujith",
+      "family": "Ravi"
+    },
+    {
+      "given": "Dan",
+      "family": "Roth"
+    }
+  ]
+},
+{
+  "id": "arxiv:2605.05828",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2605.05828",
+  "number": "2605.05828",
+  "DOI": "10.48550/arXiv.2605.05828",
+  "title": "From Chat to Interview: Agentic Requirements Elicitation with an Experience Ontology",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        7
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Dongming",
+      "family": "Jin"
+    },
+    {
+      "given": "Zhi",
+      "family": "Jin"
+    },
+    {
+      "given": "Yaotian",
+      "family": "Yang"
+    },
+    {
+      "given": "Linyu",
+      "family": "Li"
+    },
+    {
+      "given": "Zheng",
+      "family": "Fang"
+    },
+    {
+      "given": "Yuanpeng",
+      "family": "He"
+    },
+    {
+      "given": "Wenchun",
+      "family": "Jing"
+    },
+    {
+      "given": "Xiaohong",
+      "family": "Chen"
+    }
+  ]
+},
+{
+  "id": "arxiv:2602.18306",
+  "type": "report",
+  "URL": "https://arxiv.org/abs/2602.18306",
+  "number": "2602.18306",
+  "DOI": "10.48550/arXiv.2602.18306",
+  "title": "ReqElicitGym: An Evaluation Environment for Interview Competence in Conversational Requirements Elicitation",
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        20
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Dongming",
+      "family": "Jin"
+    },
+    {
+      "given": "Zhi",
+      "family": "Jin"
+    },
+    {
+      "given": "Zheng",
+      "family": "Fang"
+    },
+    {
+      "given": "Linyu",
+      "family": "Li"
+    },
+    {
+      "given": "XiaoTian",
+      "family": "Yang"
+    },
+    {
+      "given": "Yuanpeng",
+      "family": "He"
+    },
+    {
+      "given": "Xiaohong",
+      "family": "Chen"
+    }
+  ]
 }
 ]
